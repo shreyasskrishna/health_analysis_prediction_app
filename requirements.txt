@@ -1,0 +1,11 @@
+if we use GRADIO UI
+
+pip install pandas matplotlib seaborn scikit-learn numpy gradio
+
+
+python app.py
+
+ 
+for mysql connection
+pip install mysql-connector-python
+

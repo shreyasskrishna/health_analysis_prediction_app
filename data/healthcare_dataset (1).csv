@@ -1,0 +1,1001 @@
+Patient ID,Patient Name,Age,Gender,Weight (kg),Height (cm),BMI,Blood Pressure,Cholesterol (HDL/LDL),Smoking Status,Exercise (days/week),Family History,Existing Conditions,Symptoms,Medication,Glucose Level (mg/dL),Hospital Visits,Diagnosis Outcome
+P00001,Alex Blackwell,72,Male,95.4,195,25.1,119/88,37/107,Non-Smoker,7,Yes,None,Headache,Beta Blockers,89,6,Healthy
+P00002,Crystal Fisher,52,Male,111.7,192,30.3,103/70,58/147,Non-Smoker,5,No,Asthma,Fever,Antibiotics,145,0,Treatment Required
+P00003,Maria Robinson,21,Male,103.3,187,29.5,95/72,43/189,Smoker,6,Yes,Asthma,Cough,None,158,4,Further Tests
+P00004,Susan Paul,52,Female,82.8,154,34.9,124/78,47/113,Smoker,3,Yes,Hypertension,Headache,Painkillers,110,7,Further Tests
+P00005,Laura Brown,41,Male,81.1,194,21.5,120/85,46/152,Non-Smoker,5,No,None,Headache,Insulin,177,8,Healthy
+P00006,Megan Long,26,Female,77.5,182,23.4,107/69,43/135,Non-Smoker,0,No,Heart Disease,Chest Pain,Beta Blockers,171,2,Monitor
+P00007,Jason Wells,26,Female,61.5,179,19.2,132/84,36/150,Non-Smoker,1,No,Asthma,Fever,Beta Blockers,186,5,Healthy
+P00008,Jamie Stewart,83,Female,65.7,161,25.3,129/88,36/118,Smoker,2,No,None,Fever,None,149,3,Healthy
+P00009,Jonathan Romero,34,Male,66.9,187,19.1,115/81,31/166,Non-Smoker,5,Yes,None,Fever,Painkillers,112,4,Healthy
+P00010,Justin Pacheco,47,Female,108.3,194,28.8,130/78,33/114,Non-Smoker,2,Yes,Asthma,Fever,Painkillers,194,1,Healthy
+P00011,Willie Roberts,21,Male,51.7,192,14.0,98/72,47/120,Smoker,5,Yes,Hypertension,Fever,Antibiotics,95,1,Monitor
+P00012,Martin Johnson,41,Female,55.5,158,22.2,113/71,53/100,Non-Smoker,4,Yes,Diabetes,Chest Pain,Beta Blockers,129,0,Monitor
+P00013,Michael Conner,46,Female,54.2,165,19.9,140/74,38/156,Non-Smoker,0,Yes,None,Chest Pain,Painkillers,138,1,Healthy
+P00014,William Cook,22,Female,107.0,190,29.6,102/79,55/133,Smoker,3,Yes,Asthma,Shortness of Breath,None,91,1,Healthy
+P00015,Sheila Peck,59,Male,69.2,151,30.3,133/66,33/126,Non-Smoker,1,Yes,None,Fatigue,Painkillers,164,4,Further Tests
+P00016,Douglas Choi,89,Female,109.3,161,42.2,120/69,59/175,Smoker,5,Yes,Heart Disease,Shortness of Breath,Antibiotics,194,5,Healthy
+P00017,Brenda Green,61,Male,56.4,181,17.2,126/82,51/145,Non-Smoker,7,No,Heart Disease,Headache,Beta Blockers,110,4,Monitor
+P00018,Scott Zimmerman,56,Male,107.3,166,38.9,95/61,60/141,Non-Smoker,5,No,Hypertension,Chest Pain,Beta Blockers,171,2,Further Tests
+P00019,Lisa Miller,41,Female,64.3,151,28.2,105/67,59/130,Smoker,1,Yes,Asthma,Cough,Painkillers,183,6,Further Tests
+P00020,John Ward,30,Female,118.4,193,31.8,98/90,43/140,Non-Smoker,0,Yes,None,Headache,None,137,6,Further Tests
+P00021,Dominique Bennett,55,Female,120.0,167,43.0,128/83,38/178,Non-Smoker,0,Yes,Diabetes,Cough,Insulin,157,9,Healthy
+P00022,Steven Reynolds,83,Female,112.4,159,44.5,118/61,51/156,Smoker,5,No,Asthma,Shortness of Breath,None,184,0,Healthy
+P00023,Alejandra Herrera,79,Male,65.7,164,24.4,103/66,32/183,Smoker,4,Yes,None,Chest Pain,Beta Blockers,114,6,Healthy
+P00024,Cody Gardner,41,Male,62.2,173,20.8,131/83,44/136,Smoker,1,Yes,None,Cough,Insulin,143,3,Treatment Required
+P00025,Lauren Henry,77,Female,109.1,167,39.1,128/81,57/134,Smoker,6,No,Heart Disease,Fever,Antibiotics,84,2,Monitor
+P00026,Joseph Miller,55,Male,107.1,155,44.6,116/72,54/101,Smoker,5,Yes,Heart Disease,Fever,Insulin,73,9,Monitor
+P00027,Tracy Miles,61,Female,74.6,196,19.4,122/89,38/172,Non-Smoker,6,Yes,Heart Disease,Headache,None,72,6,Healthy
+P00028,Deborah Hicks,80,Male,95.1,164,35.4,100/79,56/170,Non-Smoker,0,No,Diabetes,Fatigue,Insulin,146,0,Monitor
+P00029,Sharon Wells,77,Male,71.0,172,24.0,108/85,43/119,Non-Smoker,3,Yes,Asthma,Shortness of Breath,Painkillers,73,5,Further Tests
+P00030,Cynthia Orr,70,Female,83.7,190,23.2,95/89,36/132,Non-Smoker,0,Yes,None,Chest Pain,Insulin,188,7,Monitor
+P00031,Lauren Bryant,20,Male,83.5,177,26.7,110/70,56/122,Non-Smoker,4,No,Heart Disease,Chest Pain,Painkillers,139,3,Further Tests
+P00032,Veronica James,31,Female,51.6,192,14.0,112/65,31/131,Non-Smoker,5,No,Diabetes,Cough,None,185,7,Further Tests
+P00033,Michael Collins,68,Female,76.4,153,32.6,115/80,35/120,Smoker,2,Yes,Hypertension,Shortness of Breath,Antibiotics,77,0,Treatment Required
+P00034,Matthew Barrett,44,Female,70.3,191,19.3,111/62,30/147,Non-Smoker,4,Yes,Heart Disease,Cough,None,90,9,Treatment Required
+P00035,Manuel Horton,88,Male,103.9,190,28.8,131/62,53/145,Smoker,2,No,Hypertension,Chest Pain,Beta Blockers,157,10,Monitor
+P00036,Kevin Lopez,83,Female,85.0,194,22.6,124/86,44/168,Smoker,0,No,None,Fever,Antibiotics,135,7,Treatment Required
+P00037,Alexis Ramirez PhD,68,Female,63.5,177,20.3,110/84,50/162,Smoker,6,No,Asthma,Cough,Insulin,196,9,Healthy
+P00038,Michael Horton,40,Female,58.4,173,19.5,122/81,36/128,Smoker,2,No,Heart Disease,Cough,Insulin,142,0,Healthy
+P00039,Anthony Richard,79,Female,55.6,153,23.8,115/73,51/138,Non-Smoker,4,Yes,None,Shortness of Breath,Antibiotics,196,4,Healthy
+P00040,Kerry Patterson,23,Male,119.4,192,32.4,127/63,31/163,Non-Smoker,0,Yes,Asthma,Headache,Beta Blockers,74,6,Treatment Required
+P00041,Teresa Gutierrez,74,Male,68.3,165,25.1,120/78,58/161,Smoker,7,Yes,Heart Disease,Chest Pain,None,148,9,Healthy
+P00042,Jimmy Barry,40,Male,111.6,182,33.7,97/72,33/162,Smoker,1,Yes,Diabetes,Headache,Antibiotics,96,10,Healthy
+P00043,Kelly Payne,62,Male,53.5,190,14.8,110/64,44/119,Non-Smoker,1,Yes,Diabetes,Fever,Beta Blockers,133,0,Monitor
+P00044,Dr. Jacob Johnson,80,Male,59.6,174,19.7,106/74,54/168,Smoker,1,No,Asthma,Headache,Antibiotics,114,0,Treatment Required
+P00045,Walter Carter,52,Female,60.4,174,19.9,111/60,57/173,Smoker,7,Yes,Hypertension,Cough,Antibiotics,79,2,Treatment Required
+P00046,Vanessa James,85,Female,68.3,200,17.1,113/79,34/177,Smoker,7,Yes,Heart Disease,Chest Pain,None,104,8,Monitor
+P00047,Cody Blanchard,89,Male,54.7,186,15.8,131/82,36/110,Smoker,3,No,Asthma,Fatigue,None,114,10,Further Tests
+P00048,Jessica Jones,85,Male,74.4,159,29.4,126/70,45/169,Non-Smoker,6,No,None,Cough,Antibiotics,99,2,Treatment Required
+P00049,Joshua Russo,82,Male,75.8,188,21.4,111/70,43/143,Non-Smoker,7,No,Diabetes,Chest Pain,Painkillers,144,2,Further Tests
+P00050,Jordan Rivera,58,Female,91.9,157,37.3,135/61,30/114,Smoker,7,Yes,Asthma,Fatigue,Antibiotics,115,5,Further Tests
+P00051,Tyler Mason,19,Female,110.7,161,42.7,93/70,33/126,Smoker,2,No,Diabetes,Fatigue,Painkillers,133,3,Monitor
+P00052,Emily Hahn,22,Female,100.6,175,32.8,126/70,51/103,Non-Smoker,7,No,Hypertension,Fatigue,Antibiotics,179,4,Monitor
+P00053,Sarah Bell,72,Male,73.7,179,23.0,115/72,43/183,Smoker,3,Yes,Diabetes,Cough,Painkillers,191,10,Treatment Required
+P00054,Timothy Ramirez,39,Male,102.6,174,33.9,101/90,40/179,Non-Smoker,2,Yes,None,Cough,Painkillers,162,4,Healthy
+P00055,Jeffrey Greer,20,Female,68.7,192,18.6,126/68,40/113,Non-Smoker,0,Yes,Heart Disease,Fever,Beta Blockers,79,0,Further Tests
+P00056,Jose Welch,49,Male,51.5,196,13.4,113/64,44/142,Smoker,2,No,Asthma,Cough,Antibiotics,115,6,Further Tests
+P00057,Tammy Duncan,23,Female,91.0,181,27.8,130/84,41/179,Smoker,7,No,Diabetes,Shortness of Breath,Insulin,120,0,Monitor
+P00058,Wendy Schneider,40,Male,98.2,178,31.0,127/90,34/165,Non-Smoker,0,No,None,Cough,Insulin,89,0,Treatment Required
+P00059,Lisa Rodriguez,32,Male,69.9,164,26.0,111/63,47/169,Smoker,0,No,None,Headache,None,101,0,Further Tests
+P00060,Melissa Friedman DDS,43,Male,64.2,157,26.0,116/82,44/177,Smoker,0,No,Heart Disease,Fatigue,Insulin,97,6,Healthy
+P00061,Kenneth Riley,89,Male,93.6,199,23.6,111/71,42/111,Smoker,4,Yes,Heart Disease,Shortness of Breath,Painkillers,181,4,Further Tests
+P00062,Dr. Christina Rice,38,Male,68.4,155,28.5,104/63,36/106,Smoker,1,Yes,Asthma,Shortness of Breath,Antibiotics,187,5,Treatment Required
+P00063,Michael Obrien,74,Female,59.1,198,15.1,122/87,42/170,Non-Smoker,3,No,None,Shortness of Breath,None,145,4,Further Tests
+P00064,Barbara Brown MD,68,Female,85.5,158,34.2,113/65,40/103,Smoker,1,No,Heart Disease,Fever,Painkillers,92,9,Further Tests
+P00065,James Rangel,65,Female,76.1,178,24.0,97/67,48/190,Non-Smoker,4,No,Diabetes,Shortness of Breath,Antibiotics,114,5,Monitor
+P00066,Michael Pennington,71,Male,58.7,172,19.8,109/65,50/138,Smoker,6,No,Hypertension,Chest Pain,None,129,4,Treatment Required
+P00067,Laura Jackson,24,Female,98.8,198,25.2,117/77,42/165,Non-Smoker,7,Yes,None,Fatigue,None,105,7,Treatment Required
+P00068,Morgan Lee,31,Male,52.5,189,14.7,93/70,50/188,Non-Smoker,4,Yes,Heart Disease,Chest Pain,Beta Blockers,145,1,Further Tests
+P00069,Kimberly Love,57,Female,86.9,164,32.3,121/60,30/112,Smoker,2,Yes,Asthma,Headache,None,119,8,Monitor
+P00070,Daniel Bryan,31,Female,111.6,183,33.3,126/85,37/156,Smoker,7,No,Asthma,Cough,Antibiotics,128,6,Healthy
+P00071,Karen Mendoza,45,Male,107.3,156,44.1,135/63,47/180,Non-Smoker,0,Yes,Heart Disease,Fever,None,85,4,Treatment Required
+P00072,Megan Bennett,35,Male,59.7,196,15.5,105/72,34/141,Smoker,6,No,Hypertension,Chest Pain,Insulin,132,4,Healthy
+P00073,Diana Johnson,88,Female,97.5,186,28.2,131/75,51/112,Smoker,1,Yes,Asthma,Headache,Insulin,164,9,Healthy
+P00074,Heather Coleman,50,Male,104.6,194,27.8,120/75,47/178,Non-Smoker,7,No,Diabetes,Fever,Painkillers,107,10,Further Tests
+P00075,Crystal Anderson,45,Female,102.3,176,33.0,119/74,44/180,Smoker,1,Yes,None,Shortness of Breath,Antibiotics,156,10,Treatment Required
+P00076,Eric Harrington,37,Female,71.1,154,30.0,110/78,52/139,Smoker,1,No,Diabetes,Cough,None,190,9,Healthy
+P00077,Christopher Smith,33,Female,66.7,162,25.4,98/77,47/166,Smoker,1,No,Diabetes,Shortness of Breath,Insulin,71,3,Further Tests
+P00078,Christopher Fowler,81,Male,76.7,157,31.1,126/73,37/162,Non-Smoker,0,No,Diabetes,Cough,Beta Blockers,180,8,Healthy
+P00079,Cory Rivas,30,Female,54.2,169,19.0,123/89,42/141,Smoker,2,No,Heart Disease,Headache,Beta Blockers,158,6,Healthy
+P00080,Zachary Bradford,46,Female,115.3,150,51.2,95/66,50/113,Non-Smoker,7,Yes,Heart Disease,Chest Pain,None,109,0,Treatment Required
+P00081,Claudia Lyons,40,Male,118.4,155,49.3,140/70,52/158,Smoker,0,No,Hypertension,Headache,Painkillers,91,6,Treatment Required
+P00082,Sherry Flynn,59,Female,71.9,164,26.7,111/75,57/186,Non-Smoker,0,Yes,Diabetes,Headache,Antibiotics,163,1,Further Tests
+P00083,Maria Perry,72,Male,100.3,171,34.3,102/61,47/174,Non-Smoker,0,No,None,Fatigue,Antibiotics,122,3,Healthy
+P00084,Tammy King,36,Male,78.4,191,21.5,104/88,41/124,Smoker,4,No,None,Shortness of Breath,Beta Blockers,191,2,Further Tests
+P00085,Tara Gordon,58,Male,109.0,162,41.5,128/72,54/167,Smoker,2,No,None,Fatigue,Insulin,196,6,Monitor
+P00086,Robert Spencer,63,Male,53.5,193,14.4,125/81,42/174,Smoker,4,Yes,Hypertension,Fever,Painkillers,101,10,Further Tests
+P00087,Alyssa Arnold,59,Male,105.6,166,38.3,106/89,50/183,Smoker,3,No,None,Cough,Painkillers,158,9,Monitor
+P00088,Joshua Cross,61,Male,61.3,195,16.1,122/90,36/142,Non-Smoker,0,Yes,Asthma,Fever,Painkillers,149,4,Further Tests
+P00089,Robert Sanders,70,Male,71.8,178,22.7,117/85,50/186,Smoker,1,Yes,Diabetes,Chest Pain,Beta Blockers,131,0,Treatment Required
+P00090,Paul Kelly,48,Male,88.2,198,22.5,104/75,39/136,Non-Smoker,6,Yes,Diabetes,Fever,None,199,0,Healthy
+P00091,Gabrielle Green,76,Male,62.3,197,16.1,126/71,44/134,Non-Smoker,2,No,Diabetes,Chest Pain,None,83,8,Healthy
+P00092,Jessica Pacheco,74,Male,68.3,169,23.9,135/65,60/106,Non-Smoker,3,Yes,Heart Disease,Headache,Painkillers,191,7,Monitor
+P00093,Casey Herman,20,Male,112.2,160,43.8,138/87,55/175,Smoker,5,Yes,Diabetes,Headache,None,128,8,Treatment Required
+P00094,Joshua Martinez,56,Female,105.6,177,33.7,106/74,55/130,Smoker,2,Yes,None,Shortness of Breath,None,198,2,Treatment Required
+P00095,Sheila Yang,61,Female,96.7,178,30.5,119/66,57/146,Smoker,4,Yes,Asthma,Shortness of Breath,Beta Blockers,156,7,Treatment Required
+P00096,Allen Erickson,37,Female,65.7,168,23.3,102/71,38/124,Smoker,5,No,Hypertension,Headache,Insulin,185,1,Further Tests
+P00097,Allison Estrada,31,Male,119.9,170,41.5,108/85,57/148,Non-Smoker,2,Yes,Asthma,Chest Pain,Antibiotics,182,3,Healthy
+P00098,Diana Forbes,52,Male,102.0,165,37.5,133/61,57/124,Non-Smoker,6,No,Heart Disease,Fever,None,150,1,Treatment Required
+P00099,Sherry Hernandez,87,Female,63.2,174,20.9,96/77,49/161,Non-Smoker,7,Yes,Hypertension,Shortness of Breath,None,127,4,Healthy
+P00100,David Bell,73,Female,118.0,159,46.7,109/78,49/186,Smoker,1,No,Diabetes,Shortness of Breath,Painkillers,156,7,Treatment Required
+P00101,Lisa Wright,72,Female,76.8,169,26.9,127/85,36/178,Non-Smoker,7,No,Hypertension,Chest Pain,Insulin,76,1,Monitor
+P00102,Joe Nelson,20,Male,117.2,165,43.0,124/66,43/142,Non-Smoker,5,Yes,None,Cough,Beta Blockers,71,7,Monitor
+P00103,Erin Duncan,49,Male,108.0,193,29.0,127/80,43/168,Non-Smoker,2,Yes,Heart Disease,Shortness of Breath,Beta Blockers,92,9,Healthy
+P00104,Alexander Harrison,39,Female,85.2,194,22.6,122/62,40/138,Smoker,3,Yes,Asthma,Headache,Insulin,125,9,Healthy
+P00105,Faith Hunt,28,Male,64.8,151,28.4,116/85,50/161,Smoker,2,No,Diabetes,Cough,Antibiotics,118,9,Monitor
+P00106,Barbara Garcia,84,Male,99.5,169,34.8,99/68,45/128,Non-Smoker,3,Yes,Heart Disease,Fatigue,Antibiotics,176,3,Healthy
+P00107,Courtney Ingram,46,Male,50.5,152,21.9,110/79,45/141,Non-Smoker,7,No,Hypertension,Fever,Beta Blockers,82,9,Treatment Required
+P00108,Brandon Martinez,60,Male,55.3,172,18.7,103/80,50/175,Non-Smoker,2,Yes,Heart Disease,Chest Pain,Antibiotics,94,7,Treatment Required
+P00109,Curtis West,52,Male,74.3,168,26.3,101/82,49/106,Non-Smoker,5,No,Diabetes,Fatigue,Painkillers,112,8,Healthy
+P00110,Jacob Figueroa,39,Male,119.5,159,47.3,113/90,54/159,Smoker,5,No,Diabetes,Chest Pain,Beta Blockers,182,7,Monitor
+P00111,Brenda Perry,41,Male,118.6,163,44.6,101/68,54/137,Smoker,1,Yes,Asthma,Chest Pain,Insulin,157,6,Treatment Required
+P00112,Anthony Andrade,22,Female,87.6,179,27.3,119/86,55/148,Non-Smoker,3,Yes,None,Cough,Insulin,113,7,Further Tests
+P00113,Blake Aguilar,69,Female,57.8,162,22.0,124/87,47/142,Non-Smoker,7,No,Diabetes,Fatigue,Painkillers,153,8,Further Tests
+P00114,Raven Ross,48,Male,51.6,196,13.4,100/81,31/151,Smoker,1,Yes,Asthma,Fever,Painkillers,97,10,Healthy
+P00115,Michael Decker,83,Female,53.7,200,13.4,125/69,46/138,Smoker,7,No,None,Fatigue,None,93,3,Further Tests
+P00116,Gina Galloway,42,Male,117.0,161,45.1,133/73,39/187,Non-Smoker,5,No,None,Cough,Antibiotics,142,0,Further Tests
+P00117,Daniel Cook,77,Male,59.6,155,24.8,90/82,39/183,Non-Smoker,5,No,Asthma,Fatigue,None,100,9,Further Tests
+P00118,Lauren Morrow,77,Female,81.0,163,30.5,105/76,53/167,Smoker,4,Yes,Asthma,Fever,Painkillers,148,1,Treatment Required
+P00119,Earl Hall,85,Female,76.2,184,22.5,123/79,48/177,Smoker,4,Yes,Diabetes,Cough,Insulin,160,0,Further Tests
+P00120,Tyler Reed,55,Male,78.3,193,21.0,113/65,44/129,Non-Smoker,5,Yes,Asthma,Shortness of Breath,Painkillers,121,5,Further Tests
+P00121,Benjamin Keller,77,Male,86.6,187,24.8,116/62,52/141,Non-Smoker,1,Yes,Asthma,Cough,Insulin,115,0,Treatment Required
+P00122,Emily Turner,49,Male,109.8,167,39.4,131/63,45/178,Non-Smoker,0,Yes,Asthma,Cough,Beta Blockers,101,10,Further Tests
+P00123,James Ford,62,Female,63.2,191,17.3,122/84,35/140,Non-Smoker,6,Yes,Asthma,Cough,Antibiotics,166,9,Monitor
+P00124,Jasmine Clark,53,Female,84.0,194,22.3,92/90,57/116,Non-Smoker,2,Yes,None,Chest Pain,Insulin,137,5,Monitor
+P00125,Matthew Allen,24,Male,101.3,180,31.3,114/80,37/107,Non-Smoker,4,No,Heart Disease,Headache,Painkillers,146,2,Further Tests
+P00126,Martha Graham,21,Male,111.4,177,35.6,135/77,31/174,Smoker,3,Yes,None,Fever,Antibiotics,88,9,Treatment Required
+P00127,Carolyn Marshall,81,Male,107.4,196,28.0,122/90,60/155,Non-Smoker,0,No,None,Chest Pain,None,86,6,Monitor
+P00128,Julia Morgan,83,Male,94.0,159,37.2,92/66,32/160,Non-Smoker,1,No,Diabetes,Fever,Beta Blockers,126,7,Further Tests
+P00129,Hannah Flores,70,Female,105.2,150,46.8,125/61,47/159,Smoker,2,Yes,Asthma,Headache,Antibiotics,136,8,Treatment Required
+P00130,John Robinson,82,Male,68.8,188,19.5,112/89,56/167,Non-Smoker,0,Yes,Asthma,Fever,None,151,2,Healthy
+P00131,Mary Zuniga,64,Female,109.5,179,34.2,105/77,33/134,Non-Smoker,2,Yes,Heart Disease,Fatigue,Beta Blockers,181,1,Monitor
+P00132,Tiffany Moody,46,Female,119.8,192,32.5,94/86,53/167,Non-Smoker,7,No,None,Fatigue,Painkillers,101,10,Further Tests
+P00133,Vanessa Williams,89,Male,118.7,177,37.9,108/82,59/160,Smoker,5,Yes,None,Headache,Beta Blockers,72,4,Healthy
+P00134,Derek Jenkins,58,Male,50.2,193,13.5,109/79,34/184,Smoker,4,Yes,Heart Disease,Fever,Beta Blockers,150,2,Monitor
+P00135,Mark Medina,49,Female,117.1,156,48.1,120/61,33/147,Non-Smoker,2,No,Asthma,Chest Pain,Antibiotics,88,6,Monitor
+P00136,Francis Simon,67,Female,63.5,190,17.6,125/73,38/137,Non-Smoker,5,Yes,Diabetes,Fatigue,None,78,0,Monitor
+P00137,Linda Li,59,Male,101.4,150,45.1,92/61,34/135,Non-Smoker,1,Yes,Asthma,Headache,Painkillers,112,7,Monitor
+P00138,Charles Chandler,34,Female,112.5,162,42.9,108/77,49/149,Non-Smoker,6,Yes,None,Headache,None,197,0,Further Tests
+P00139,Samantha Jones,79,Male,61.9,165,22.7,130/74,43/173,Smoker,0,No,None,Cough,Insulin,130,10,Treatment Required
+P00140,Diana Ellison,81,Male,90.3,180,27.9,124/74,44/183,Non-Smoker,6,Yes,Asthma,Cough,Antibiotics,111,2,Healthy
+P00141,Justin Lawrence,63,Male,67.6,194,18.0,118/83,44/145,Non-Smoker,6,Yes,Diabetes,Cough,Painkillers,180,9,Treatment Required
+P00142,Dale Hayes,34,Male,114.0,183,34.0,111/71,43/160,Non-Smoker,0,No,Asthma,Shortness of Breath,Antibiotics,149,4,Further Tests
+P00143,Pamela Anderson,90,Female,107.0,185,31.3,100/77,51/127,Smoker,6,No,Asthma,Fatigue,Beta Blockers,80,9,Monitor
+P00144,Haley Brown,30,Male,103.9,179,32.4,115/88,34/152,Non-Smoker,7,Yes,Heart Disease,Cough,Insulin,71,4,Healthy
+P00145,Teresa Hicks,30,Male,110.8,191,30.4,102/73,58/129,Smoker,1,Yes,Heart Disease,Headache,Insulin,173,9,Treatment Required
+P00146,Kimberly Rodriguez,37,Female,116.4,195,30.6,120/81,42/179,Non-Smoker,1,No,None,Fever,Beta Blockers,83,5,Healthy
+P00147,Mr. Robert Mclaughlin,70,Female,57.4,173,19.2,106/79,46/151,Smoker,3,No,Hypertension,Chest Pain,Antibiotics,140,3,Monitor
+P00148,Joshua Jones,41,Female,66.0,195,17.4,114/70,49/124,Non-Smoker,0,Yes,None,Chest Pain,None,106,10,Further Tests
+P00149,Amanda Smith,88,Male,117.0,169,41.0,102/62,34/166,Smoker,0,No,Asthma,Cough,Painkillers,184,9,Monitor
+P00150,Jacqueline Love,25,Male,108.4,197,27.9,123/82,56/121,Non-Smoker,4,No,Asthma,Chest Pain,Antibiotics,151,9,Healthy
+P00151,Leah Elliott,43,Male,67.5,197,17.4,105/60,58/121,Non-Smoker,5,No,Hypertension,Shortness of Breath,Beta Blockers,166,8,Monitor
+P00152,Mitchell Anderson,25,Male,96.1,155,40.0,101/82,51/122,Smoker,6,Yes,Heart Disease,Chest Pain,None,98,5,Further Tests
+P00153,Emma Garcia,48,Male,88.6,193,23.8,112/81,36/164,Smoker,1,No,Heart Disease,Fatigue,Painkillers,129,8,Treatment Required
+P00154,Marvin Kelly,21,Female,113.5,200,28.4,128/90,49/176,Non-Smoker,1,Yes,Heart Disease,Shortness of Breath,Antibiotics,159,10,Treatment Required
+P00155,Brandy Gill,42,Male,73.1,182,22.1,125/67,35/171,Non-Smoker,1,Yes,Heart Disease,Cough,Antibiotics,174,5,Further Tests
+P00156,Alan Marshall,32,Male,95.5,159,37.8,115/80,33/190,Non-Smoker,1,No,Asthma,Cough,Insulin,172,3,Monitor
+P00157,Valerie Martin,85,Female,91.7,188,25.9,92/87,60/179,Smoker,0,No,Diabetes,Chest Pain,Beta Blockers,129,6,Healthy
+P00158,Michelle Jones,86,Male,112.2,152,48.6,94/64,32/153,Smoker,6,No,Hypertension,Headache,Insulin,170,0,Healthy
+P00159,Amber Stanley,88,Male,108.8,156,44.7,120/72,44/107,Non-Smoker,1,No,Hypertension,Chest Pain,Painkillers,175,2,Healthy
+P00160,Douglas Campbell,40,Female,99.5,171,34.0,92/83,59/186,Smoker,7,Yes,Hypertension,Headache,Antibiotics,122,2,Healthy
+P00161,Charles Church,43,Male,90.3,191,24.8,123/78,60/142,Smoker,2,No,Asthma,Chest Pain,Beta Blockers,113,0,Further Tests
+P00162,Colleen Schultz,48,Male,66.8,193,17.9,99/87,45/107,Smoker,7,No,Asthma,Shortness of Breath,Beta Blockers,195,4,Further Tests
+P00163,Andrea Thomas,79,Male,54.7,197,14.1,109/89,44/120,Smoker,0,Yes,None,Cough,Antibiotics,112,7,Treatment Required
+P00164,Joseph Mora,36,Male,105.4,164,39.2,108/70,38/147,Smoker,2,No,None,Cough,Insulin,84,3,Treatment Required
+P00165,Chase Washington,62,Female,87.7,184,25.9,91/62,55/187,Non-Smoker,0,No,None,Headache,None,78,8,Healthy
+P00166,Christopher Carter,46,Female,63.6,173,21.3,97/61,53/164,Smoker,2,No,Heart Disease,Headache,Beta Blockers,189,7,Healthy
+P00167,Bradley Bonilla,76,Female,61.4,159,24.3,120/88,42/190,Smoker,6,No,Diabetes,Fatigue,Painkillers,113,0,Treatment Required
+P00168,Benjamin Miller,30,Male,57.6,193,15.5,133/81,33/113,Non-Smoker,2,Yes,Heart Disease,Fatigue,Beta Blockers,181,3,Healthy
+P00169,Margaret Arnold,85,Female,85.9,184,25.4,91/88,50/104,Smoker,5,No,None,Shortness of Breath,Antibiotics,175,5,Healthy
+P00170,Steven Johnson,49,Male,118.2,166,42.9,98/89,49/124,Non-Smoker,6,Yes,Heart Disease,Fatigue,None,95,10,Healthy
+P00171,Mr. David Lewis,69,Female,109.9,151,48.2,129/87,54/105,Smoker,0,No,None,Shortness of Breath,None,71,3,Treatment Required
+P00172,Julia Smith,77,Male,64.1,165,23.5,131/77,37/166,Non-Smoker,2,No,Diabetes,Fever,None,183,3,Further Tests
+P00173,Andres Estes,27,Male,72.7,197,18.7,117/90,33/188,Smoker,2,No,Diabetes,Fever,Painkillers,152,8,Further Tests
+P00174,Valerie Diaz,74,Female,80.4,170,27.8,99/65,54/143,Smoker,2,Yes,Hypertension,Cough,Insulin,127,8,Further Tests
+P00175,Jennifer Bishop,30,Male,95.6,186,27.6,131/84,34/132,Non-Smoker,2,Yes,Diabetes,Shortness of Breath,Insulin,122,1,Healthy
+P00176,Mr. John Hernandez Jr.,89,Male,65.7,182,19.8,129/64,54/178,Non-Smoker,2,Yes,None,Cough,Antibiotics,147,3,Treatment Required
+P00177,Brandon Lewis,71,Male,66.5,162,25.3,97/62,50/148,Smoker,3,No,Heart Disease,Chest Pain,Insulin,123,8,Monitor
+P00178,Joseph White,78,Female,55.3,159,21.9,92/67,42/152,Smoker,6,No,Heart Disease,Shortness of Breath,Insulin,85,3,Treatment Required
+P00179,Kathleen Mcdaniel,82,Male,57.5,159,22.7,135/67,42/120,Non-Smoker,3,Yes,None,Cough,Beta Blockers,159,6,Monitor
+P00180,Sharon Robinson,49,Male,89.9,177,28.7,103/72,41/136,Non-Smoker,5,No,None,Chest Pain,None,84,6,Healthy
+P00181,Shannon Franco,58,Male,67.8,181,20.7,139/73,38/170,Smoker,3,No,None,Fatigue,Painkillers,185,5,Treatment Required
+P00182,Stephen Howard,73,Female,78.7,178,24.8,133/89,53/148,Smoker,6,No,Diabetes,Fatigue,Painkillers,191,9,Further Tests
+P00183,Laura Ramirez,57,Female,72.5,172,24.5,111/88,52/143,Smoker,7,Yes,Heart Disease,Shortness of Breath,Antibiotics,155,0,Treatment Required
+P00184,Kurt Hart,22,Female,54.9,178,17.3,107/75,39/182,Non-Smoker,2,No,Asthma,Shortness of Breath,Painkillers,76,1,Healthy
+P00185,Alexandra Hester,59,Male,104.3,186,30.1,102/77,34/130,Smoker,6,No,None,Fever,Beta Blockers,121,10,Further Tests
+P00186,Donald Williams,45,Female,100.3,180,31.0,133/89,30/121,Smoker,5,No,Asthma,Cough,Beta Blockers,79,9,Treatment Required
+P00187,Robert Hicks,30,Male,52.0,187,14.9,139/82,49/157,Non-Smoker,7,Yes,Heart Disease,Cough,Insulin,190,2,Treatment Required
+P00188,Carolyn Alvarado,25,Male,55.5,167,19.9,94/61,34/159,Non-Smoker,2,Yes,Diabetes,Chest Pain,Beta Blockers,175,10,Further Tests
+P00189,Amber Stout,32,Male,60.8,194,16.2,120/71,51/104,Non-Smoker,1,Yes,Diabetes,Cough,None,102,9,Further Tests
+P00190,Cameron Tran,20,Female,84.4,158,33.8,92/72,43/187,Smoker,1,No,Heart Disease,Chest Pain,Insulin,153,7,Healthy
+P00191,John Miller,21,Female,93.1,169,32.6,105/87,46/103,Smoker,6,No,Heart Disease,Chest Pain,Beta Blockers,76,3,Treatment Required
+P00192,Julie Williams,70,Female,57.2,194,15.2,122/62,55/163,Smoker,7,No,Hypertension,Cough,Painkillers,93,5,Monitor
+P00193,James Owens,55,Male,64.2,153,27.4,92/83,36/113,Smoker,0,Yes,None,Headache,None,142,6,Monitor
+P00194,Devin Zimmerman,71,Male,50.6,157,20.5,134/80,40/158,Non-Smoker,2,Yes,Hypertension,Chest Pain,None,200,8,Healthy
+P00195,Connie Williams,55,Female,56.1,199,14.2,90/74,38/175,Non-Smoker,1,Yes,Hypertension,Fatigue,Antibiotics,187,0,Treatment Required
+P00196,David Holmes,53,Male,73.2,200,18.3,133/85,40/160,Non-Smoker,0,No,Asthma,Headache,None,187,3,Monitor
+P00197,Cole Leonard,65,Male,101.3,162,38.6,131/85,39/137,Smoker,4,No,Hypertension,Fever,Beta Blockers,164,2,Healthy
+P00198,Melvin Case,78,Male,101.2,156,41.6,98/88,32/184,Smoker,5,Yes,Hypertension,Fatigue,None,199,2,Treatment Required
+P00199,Sara Coleman,34,Female,112.3,172,38.0,91/66,43/105,Smoker,5,No,Diabetes,Chest Pain,Insulin,144,8,Monitor
+P00200,Sandra Miller,40,Female,112.7,157,45.7,133/66,35/149,Non-Smoker,4,No,Asthma,Cough,Beta Blockers,82,6,Healthy
+P00201,Larry Rose,34,Female,115.7,188,32.7,120/78,59/111,Smoker,5,Yes,Asthma,Chest Pain,Painkillers,81,6,Further Tests
+P00202,Sandra Stafford,49,Male,53.3,181,16.3,114/77,58/147,Smoker,4,Yes,Asthma,Cough,Painkillers,195,2,Treatment Required
+P00203,Jenna Rodriguez,32,Female,73.5,183,21.9,96/81,53/122,Non-Smoker,6,No,Hypertension,Chest Pain,Beta Blockers,152,1,Further Tests
+P00204,Patricia Walker,77,Male,96.6,186,27.9,125/72,41/132,Smoker,1,Yes,Heart Disease,Fatigue,Painkillers,136,2,Further Tests
+P00205,Dr. Matthew Parker,59,Female,93.1,154,39.3,98/61,34/138,Smoker,3,No,None,Cough,Painkillers,111,1,Further Tests
+P00206,Joshua Mooney,85,Male,71.8,170,24.8,113/73,55/122,Smoker,3,No,Asthma,Headache,Insulin,89,8,Treatment Required
+P00207,Julia Li,20,Female,76.2,187,21.8,92/77,55/112,Non-Smoker,0,Yes,None,Fever,None,200,4,Further Tests
+P00208,Andrea Holland,28,Male,68.7,166,24.9,104/72,43/190,Non-Smoker,6,Yes,Heart Disease,Cough,Painkillers,92,7,Treatment Required
+P00209,Mrs. Courtney Garcia,46,Female,50.6,185,14.8,107/79,39/114,Smoker,7,No,Heart Disease,Fever,Antibiotics,71,0,Monitor
+P00210,Claire Dodson,75,Female,109.1,160,42.6,102/77,42/115,Smoker,4,Yes,Heart Disease,Chest Pain,Insulin,166,2,Further Tests
+P00211,William Mcdonald,65,Female,76.2,162,29.0,103/66,42/174,Non-Smoker,0,No,Diabetes,Shortness of Breath,Beta Blockers,124,9,Further Tests
+P00212,Miss Sheri Sosa,39,Female,97.7,199,24.7,113/88,42/165,Smoker,0,Yes,None,Shortness of Breath,None,126,8,Treatment Required
+P00213,Mark Elliott,84,Female,115.2,171,39.4,126/63,54/166,Smoker,2,Yes,Heart Disease,Fatigue,None,131,1,Healthy
+P00214,Joanna Ortiz,46,Male,119.7,158,47.9,111/73,59/153,Non-Smoker,3,Yes,Asthma,Fever,Insulin,127,6,Further Tests
+P00215,Marie Eaton,86,Male,107.2,152,46.4,130/68,33/133,Non-Smoker,1,No,Heart Disease,Cough,None,112,5,Treatment Required
+P00216,Patricia Murray,30,Male,80.2,200,20.1,93/68,43/115,Non-Smoker,5,No,Hypertension,Shortness of Breath,Insulin,172,5,Further Tests
+P00217,Isaac Lee,67,Male,99.1,194,26.3,106/72,38/119,Non-Smoker,1,Yes,Asthma,Headache,None,113,8,Treatment Required
+P00218,Thomas Rivas,81,Female,98.1,169,34.3,96/83,56/158,Non-Smoker,7,No,Diabetes,Cough,None,144,7,Monitor
+P00219,Chad Miller,81,Male,56.9,189,15.9,93/73,32/160,Smoker,4,No,Diabetes,Fatigue,None,94,7,Healthy
+P00220,Lauren Berry,63,Female,88.9,158,35.6,110/77,33/142,Smoker,3,No,Asthma,Fever,Beta Blockers,83,9,Treatment Required
+P00221,Erika Stevens,72,Male,91.5,192,24.8,96/83,56/123,Smoker,1,No,Hypertension,Fatigue,Insulin,127,2,Healthy
+P00222,Richard Reeves,61,Female,111.0,153,47.4,122/79,44/178,Non-Smoker,6,No,Heart Disease,Headache,Painkillers,111,10,Treatment Required
+P00223,Alexander Bright,79,Male,110.6,159,43.7,131/81,59/154,Non-Smoker,7,Yes,Asthma,Cough,Painkillers,193,0,Monitor
+P00224,Rachel Thompson,28,Female,110.4,182,33.3,111/73,58/152,Smoker,6,Yes,None,Fever,Beta Blockers,172,9,Healthy
+P00225,Craig Walsh,52,Female,108.5,160,42.4,111/81,59/130,Smoker,1,No,Heart Disease,Shortness of Breath,None,148,0,Further Tests
+P00226,Andrew Zuniga,46,Male,105.3,183,31.4,111/89,30/142,Non-Smoker,7,No,Asthma,Shortness of Breath,None,158,7,Treatment Required
+P00227,James Harris,54,Female,58.4,178,18.4,125/77,39/138,Non-Smoker,3,No,Asthma,Fatigue,Painkillers,193,0,Healthy
+P00228,Jose Rivas,75,Male,58.5,157,23.7,140/82,42/149,Non-Smoker,7,Yes,Asthma,Chest Pain,Antibiotics,147,0,Treatment Required
+P00229,Amanda Smith,75,Male,77.7,176,25.1,99/62,47/190,Non-Smoker,2,No,Asthma,Fatigue,Antibiotics,89,1,Healthy
+P00230,Jennifer Daniel,59,Female,76.5,176,24.7,116/67,54/173,Smoker,4,No,Hypertension,Chest Pain,Antibiotics,198,10,Monitor
+P00231,April Collier,26,Female,56.3,187,16.1,116/61,56/175,Smoker,2,Yes,Heart Disease,Fatigue,Beta Blockers,79,9,Healthy
+P00232,Cassandra Matthews,67,Female,92.5,154,39.0,110/63,38/129,Non-Smoker,4,No,Asthma,Fatigue,Antibiotics,164,10,Treatment Required
+P00233,Jeffrey Harris,28,Male,55.6,161,21.4,130/81,37/187,Non-Smoker,3,Yes,Asthma,Shortness of Breath,Insulin,170,0,Further Tests
+P00234,Nancy Smith,72,Male,115.6,162,44.0,96/68,54/127,Smoker,0,Yes,None,Chest Pain,Insulin,145,5,Treatment Required
+P00235,Kevin Pace,44,Female,118.1,185,34.5,140/61,55/170,Non-Smoker,5,No,Heart Disease,Shortness of Breath,Beta Blockers,174,10,Monitor
+P00236,Mr. Jesus Franco Jr.,27,Male,117.2,163,44.1,133/74,46/174,Smoker,4,No,Heart Disease,Headache,None,127,9,Healthy
+P00237,Mr. Cory Walsh,37,Male,93.6,164,34.8,103/82,57/174,Non-Smoker,1,No,None,Chest Pain,Insulin,85,8,Monitor
+P00238,Anita Carpenter,58,Male,53.0,170,18.3,122/77,40/180,Smoker,7,No,None,Headache,Painkillers,140,1,Healthy
+P00239,Brian Velazquez,67,Female,64.5,159,25.5,105/60,57/108,Non-Smoker,0,Yes,Heart Disease,Headache,Painkillers,105,4,Further Tests
+P00240,Amy Beard,27,Female,66.1,183,19.7,102/75,52/157,Non-Smoker,5,No,Heart Disease,Shortness of Breath,None,193,1,Monitor
+P00241,Elaine Galvan,18,Male,68.3,164,25.4,90/64,60/106,Smoker,3,Yes,None,Headache,None,96,3,Further Tests
+P00242,Stacey Brown,45,Male,70.6,183,21.1,96/60,48/100,Non-Smoker,7,No,None,Fatigue,Antibiotics,131,4,Further Tests
+P00243,Thomas Boyle,56,Male,82.6,189,23.1,121/89,48/163,Non-Smoker,0,No,Asthma,Headache,Beta Blockers,133,8,Monitor
+P00244,Martin White,53,Female,72.7,195,19.1,136/70,52/127,Non-Smoker,2,No,Hypertension,Shortness of Breath,None,189,6,Treatment Required
+P00245,Kathleen Brown,80,Male,115.3,177,36.8,105/82,33/113,Smoker,6,No,Heart Disease,Headache,Insulin,168,1,Healthy
+P00246,Joshua Richards,48,Male,103.0,197,26.5,118/89,30/118,Smoker,7,No,Heart Disease,Fatigue,Antibiotics,88,7,Monitor
+P00247,Paul Ramirez,55,Female,53.3,186,15.4,104/79,58/170,Non-Smoker,6,Yes,Heart Disease,Shortness of Breath,Antibiotics,122,6,Monitor
+P00248,Angela Collins,83,Male,80.3,163,30.2,97/72,50/122,Non-Smoker,3,No,Diabetes,Chest Pain,Insulin,164,9,Monitor
+P00249,Miss Lauren Myers,34,Male,113.0,196,29.4,116/60,49/133,Smoker,3,Yes,Diabetes,Fever,None,71,0,Treatment Required
+P00250,Thomas Anderson,43,Male,94.9,175,31.0,100/80,50/106,Non-Smoker,7,Yes,Heart Disease,Fatigue,None,115,1,Further Tests
+P00251,Sara Hill,67,Male,54.7,194,14.5,115/83,59/187,Non-Smoker,0,No,Heart Disease,Headache,Beta Blockers,146,8,Healthy
+P00252,Scott Benson,68,Female,103.5,170,35.8,124/86,33/132,Smoker,2,No,Asthma,Fever,None,194,0,Further Tests
+P00253,Jason Roberts,51,Female,63.7,153,27.2,132/64,51/158,Non-Smoker,7,No,Heart Disease,Cough,None,176,9,Further Tests
+P00254,Michael Cooley,28,Male,112.3,168,39.8,126/85,34/175,Smoker,6,No,Asthma,Chest Pain,Antibiotics,101,7,Healthy
+P00255,Jonathan Moore,45,Female,58.0,188,16.4,129/89,56/140,Non-Smoker,0,Yes,Asthma,Fever,None,131,6,Healthy
+P00256,Anthony Jones,46,Female,69.0,184,20.4,122/79,54/138,Non-Smoker,1,Yes,Asthma,Fever,None,154,1,Treatment Required
+P00257,Robert Tapia,59,Male,80.3,167,28.8,132/63,33/151,Smoker,3,Yes,Hypertension,Fever,Beta Blockers,185,10,Further Tests
+P00258,Noah Lopez,62,Male,113.5,177,36.2,97/60,52/120,Smoker,2,Yes,Diabetes,Cough,None,75,9,Healthy
+P00259,Duane Mitchell,71,Female,107.9,165,39.6,112/72,41/114,Non-Smoker,5,No,None,Fatigue,Painkillers,162,1,Treatment Required
+P00260,Gregory Garcia,79,Female,55.7,194,14.8,94/84,43/146,Non-Smoker,2,Yes,None,Fatigue,Beta Blockers,174,8,Further Tests
+P00261,Michelle Johnson,65,Male,88.7,165,32.6,95/86,53/156,Smoker,1,Yes,Heart Disease,Shortness of Breath,Beta Blockers,89,9,Healthy
+P00262,Bradley Aguilar,20,Female,114.4,176,36.9,98/60,59/159,Smoker,3,Yes,Diabetes,Fatigue,Insulin,199,0,Further Tests
+P00263,Carlos Johnson,36,Male,100.6,188,28.5,92/78,33/133,Smoker,7,No,Diabetes,Fatigue,Antibiotics,75,6,Further Tests
+P00264,Andrew Bell,70,Female,55.1,173,18.4,131/73,47/146,Non-Smoker,1,No,Hypertension,Fatigue,None,119,8,Treatment Required
+P00265,Angela Moyer,23,Female,79.4,167,28.5,133/67,37/184,Non-Smoker,6,Yes,Diabetes,Shortness of Breath,Beta Blockers,70,3,Further Tests
+P00266,Jonathan Bush,85,Male,82.3,177,26.3,130/74,51/101,Smoker,7,Yes,None,Fever,Beta Blockers,111,10,Treatment Required
+P00267,Carlos Hoffman,55,Female,65.6,168,23.2,133/64,47/113,Non-Smoker,4,No,Diabetes,Fatigue,Beta Blockers,144,5,Further Tests
+P00268,Sarah Anderson,40,Male,107.2,169,37.5,92/72,35/188,Smoker,4,No,None,Cough,Painkillers,76,5,Healthy
+P00269,Jasmine Carter,36,Male,73.9,161,28.5,122/78,44/155,Smoker,3,Yes,Asthma,Fatigue,None,128,6,Healthy
+P00270,Jeffrey Cuevas,37,Female,62.2,170,21.5,96/73,42/156,Smoker,4,No,None,Shortness of Breath,Painkillers,114,7,Further Tests
+P00271,Natasha Ayala,84,Male,86.0,171,29.4,138/82,53/146,Smoker,5,Yes,Heart Disease,Shortness of Breath,Painkillers,126,6,Monitor
+P00272,Benjamin Carter,46,Female,65.6,159,25.9,138/74,45/105,Non-Smoker,5,Yes,Asthma,Shortness of Breath,None,196,10,Healthy
+P00273,Sharon Long,60,Female,55.5,160,21.7,103/90,40/113,Non-Smoker,1,Yes,None,Fatigue,Insulin,169,9,Further Tests
+P00274,Elizabeth Gonzalez,27,Male,87.3,189,24.4,139/85,48/167,Non-Smoker,3,No,Diabetes,Fever,Painkillers,133,3,Treatment Required
+P00275,Karen Berger,79,Female,116.8,156,48.0,90/82,40/175,Smoker,5,Yes,Hypertension,Fever,Insulin,174,8,Monitor
+P00276,Diana Clark,34,Female,92.6,165,34.0,137/79,37/155,Non-Smoker,1,Yes,Asthma,Cough,Painkillers,142,6,Further Tests
+P00277,Carlos Baker,90,Female,117.7,182,35.5,136/79,44/102,Smoker,1,Yes,Hypertension,Chest Pain,None,134,8,Healthy
+P00278,Keith Cervantes,71,Female,60.9,152,26.4,102/81,35/165,Smoker,2,Yes,Heart Disease,Chest Pain,Painkillers,130,7,Monitor
+P00279,Jose Rivera,58,Female,63.0,188,17.8,95/87,38/118,Smoker,2,Yes,Asthma,Cough,Beta Blockers,198,8,Monitor
+P00280,Alison Sullivan,20,Female,100.9,162,38.4,90/73,44/109,Smoker,5,No,Diabetes,Cough,Insulin,144,10,Healthy
+P00281,Steven Osborne,85,Female,114.6,180,35.4,129/83,57/145,Smoker,3,Yes,Diabetes,Cough,None,136,6,Healthy
+P00282,Miss Susan Manning DVM,30,Female,50.3,185,14.7,100/61,55/156,Non-Smoker,1,Yes,None,Chest Pain,Insulin,185,4,Further Tests
+P00283,Caleb Mcgee,70,Female,112.6,194,29.9,109/89,48/146,Non-Smoker,7,No,Hypertension,Cough,Painkillers,167,9,Healthy
+P00284,Robert Butler,70,Female,100.7,151,44.2,103/71,41/104,Non-Smoker,2,Yes,Hypertension,Fever,Beta Blockers,172,9,Healthy
+P00285,Kimberly Mckee,29,Female,113.3,169,39.7,137/90,56/175,Non-Smoker,1,No,Hypertension,Headache,Beta Blockers,150,7,Further Tests
+P00286,Aaron Weiss,33,Female,76.4,185,22.3,92/78,44/162,Smoker,5,Yes,Diabetes,Fever,Insulin,85,6,Treatment Required
+P00287,Claudia Guzman,29,Female,70.0,151,30.7,130/84,34/115,Non-Smoker,5,Yes,Diabetes,Shortness of Breath,Antibiotics,154,4,Healthy
+P00288,Robert Gillespie,87,Male,56.4,163,21.2,135/73,47/180,Smoker,6,Yes,Hypertension,Fatigue,Antibiotics,180,7,Healthy
+P00289,Carlos Parrish,23,Male,91.0,190,25.2,92/75,51/159,Smoker,0,Yes,Diabetes,Cough,None,150,2,Further Tests
+P00290,Sergio Peterson,68,Male,70.8,178,22.3,117/87,49/148,Non-Smoker,5,No,Diabetes,Fatigue,Antibiotics,165,7,Treatment Required
+P00291,Lisa Wagner,53,Female,90.9,175,29.7,122/62,35/136,Non-Smoker,0,No,Hypertension,Fever,Insulin,144,5,Healthy
+P00292,Frank Boyd,50,Male,59.3,178,18.7,126/70,31/110,Non-Smoker,7,No,Heart Disease,Cough,Antibiotics,97,0,Healthy
+P00293,Sarah Estrada,60,Male,89.2,187,25.5,118/64,42/174,Smoker,3,Yes,Asthma,Fatigue,Beta Blockers,145,7,Healthy
+P00294,Michelle Beck,45,Female,107.5,154,45.3,135/68,38/148,Smoker,4,Yes,Asthma,Fatigue,Antibiotics,100,8,Healthy
+P00295,Jennifer Phillips,21,Female,97.6,198,24.9,112/70,37/109,Smoker,1,No,Asthma,Chest Pain,Beta Blockers,151,2,Treatment Required
+P00296,Rebecca Guzman,29,Male,63.5,169,22.2,102/77,32/107,Non-Smoker,4,No,Asthma,Fever,Beta Blockers,115,3,Further Tests
+P00297,Craig Wolf,61,Female,65.3,191,17.9,140/73,33/110,Non-Smoker,1,No,None,Fatigue,Antibiotics,172,1,Healthy
+P00298,Joseph Pratt,58,Female,63.2,150,28.1,133/80,59/110,Smoker,2,No,None,Fever,Beta Blockers,105,8,Treatment Required
+P00299,Todd Guerrero,35,Male,50.8,191,13.9,107/67,52/119,Non-Smoker,0,No,Heart Disease,Fatigue,Beta Blockers,120,8,Healthy
+P00300,Terry Hardy,78,Male,68.3,162,26.0,101/77,55/151,Non-Smoker,1,No,None,Fever,Beta Blockers,159,5,Monitor
+P00301,Joseph Grimes,83,Female,100.3,174,33.1,105/64,56/109,Non-Smoker,3,Yes,Hypertension,Chest Pain,None,124,1,Healthy
+P00302,Steven Ruiz,68,Male,71.3,163,26.8,120/86,48/181,Smoker,0,No,Diabetes,Fatigue,Antibiotics,105,4,Healthy
+P00303,Allison Jones,77,Female,110.7,194,29.4,130/74,41/103,Non-Smoker,4,Yes,Diabetes,Cough,Painkillers,121,8,Further Tests
+P00304,James King,20,Male,117.3,185,34.3,137/63,35/114,Non-Smoker,7,No,Hypertension,Fatigue,Insulin,149,10,Healthy
+P00305,Thomas Diaz,49,Female,111.6,197,28.8,90/88,53/138,Non-Smoker,3,No,None,Shortness of Breath,Painkillers,97,8,Monitor
+P00306,Emily Rose,81,Female,84.6,181,25.8,103/62,32/187,Non-Smoker,5,No,None,Shortness of Breath,Painkillers,126,3,Monitor
+P00307,Sabrina Lee,36,Male,104.1,151,45.7,136/72,50/145,Non-Smoker,1,Yes,Hypertension,Headache,Antibiotics,92,7,Monitor
+P00308,William Pennington,83,Female,94.2,154,39.7,134/66,44/129,Smoker,1,Yes,Hypertension,Shortness of Breath,None,114,10,Further Tests
+P00309,William Meza,69,Female,91.2,188,25.8,110/76,38/138,Non-Smoker,0,No,Asthma,Fever,Beta Blockers,85,10,Treatment Required
+P00310,Jacob Miller,32,Male,109.7,187,31.4,97/88,56/102,Smoker,7,No,Asthma,Shortness of Breath,Beta Blockers,100,0,Healthy
+P00311,Natasha Mosley,90,Female,86.2,188,24.4,110/74,38/138,Non-Smoker,2,Yes,None,Headache,Beta Blockers,173,5,Healthy
+P00312,Paul Perez,38,Male,76.6,150,34.0,106/67,58/179,Smoker,4,Yes,Hypertension,Cough,Insulin,74,1,Treatment Required
+P00313,William Silva,40,Female,97.5,194,25.9,123/80,42/185,Non-Smoker,4,No,None,Headache,Antibiotics,151,9,Monitor
+P00314,Deborah Lam,56,Male,118.9,159,47.0,110/61,52/184,Smoker,5,No,Hypertension,Cough,None,162,8,Further Tests
+P00315,Tanya Robinson,24,Male,116.5,154,49.1,116/72,58/175,Non-Smoker,7,No,None,Headache,Insulin,83,0,Treatment Required
+P00316,Jessica Graham,70,Male,97.3,153,41.6,125/81,35/177,Smoker,0,No,None,Fever,Antibiotics,130,0,Treatment Required
+P00317,Jason Smith,22,Male,54.5,178,17.2,126/67,55/151,Smoker,5,No,Heart Disease,Chest Pain,Painkillers,149,5,Healthy
+P00318,Andrew Mason,57,Male,92.8,173,31.0,102/82,55/183,Non-Smoker,3,No,Diabetes,Cough,None,107,2,Treatment Required
+P00319,Jacob Ramirez,58,Female,90.3,175,29.5,107/62,33/177,Smoker,5,No,Heart Disease,Fatigue,None,179,0,Treatment Required
+P00320,Madison Arnold,61,Female,65.8,198,16.8,111/68,43/103,Non-Smoker,7,No,Diabetes,Fatigue,None,197,4,Treatment Required
+P00321,Haley Wong,89,Male,51.1,163,19.2,97/75,52/125,Non-Smoker,2,Yes,Hypertension,Fever,Beta Blockers,105,3,Monitor
+P00322,Teresa Schroeder,31,Female,80.0,168,28.3,136/74,50/124,Smoker,4,No,Heart Disease,Cough,Insulin,153,0,Monitor
+P00323,Barbara Mcdaniel,72,Male,113.0,199,28.5,104/85,34/187,Smoker,2,No,None,Chest Pain,Insulin,114,2,Treatment Required
+P00324,Ronald Carter,41,Female,84.2,154,35.5,133/69,48/159,Non-Smoker,5,No,None,Shortness of Breath,Beta Blockers,156,0,Healthy
+P00325,Madeline Norton,81,Male,94.9,193,25.5,90/75,32/181,Smoker,0,Yes,Hypertension,Shortness of Breath,Beta Blockers,122,4,Further Tests
+P00326,James Hoffman,57,Female,100.8,171,34.5,124/63,56/132,Non-Smoker,6,Yes,Diabetes,Headache,Beta Blockers,131,6,Treatment Required
+P00327,Robert Schmidt,23,Male,90.2,198,23.0,90/78,56/164,Smoker,5,Yes,Hypertension,Shortness of Breath,Beta Blockers,112,0,Further Tests
+P00328,Jason Knight,83,Male,67.0,173,22.4,90/90,36/132,Non-Smoker,0,No,Hypertension,Cough,None,152,10,Healthy
+P00329,Colleen Leonard,85,Female,56.1,174,18.5,135/60,34/169,Non-Smoker,0,No,Heart Disease,Fever,Antibiotics,178,0,Further Tests
+P00330,Christopher Golden,58,Male,70.7,192,19.2,98/65,42/129,Smoker,7,No,Diabetes,Fever,Painkillers,100,4,Monitor
+P00331,Krista Fisher,35,Female,50.2,177,16.0,122/81,55/102,Non-Smoker,2,No,Heart Disease,Cough,Insulin,188,4,Healthy
+P00332,Joshua Walker,68,Female,97.3,187,27.8,122/89,52/145,Smoker,7,No,Asthma,Cough,Antibiotics,118,10,Healthy
+P00333,Shawn Patrick,37,Female,59.9,165,22.0,139/72,43/121,Non-Smoker,0,Yes,None,Chest Pain,Insulin,190,7,Monitor
+P00334,Laurie Charles,29,Male,82.1,160,32.1,97/89,37/101,Smoker,0,Yes,Hypertension,Cough,Beta Blockers,138,7,Healthy
+P00335,Victoria White,89,Male,104.6,184,30.9,99/87,40/128,Non-Smoker,2,Yes,None,Fever,Antibiotics,144,9,Monitor
+P00336,Roger Mcdonald,35,Female,64.3,156,26.4,96/62,40/112,Non-Smoker,4,Yes,Diabetes,Shortness of Breath,Painkillers,184,4,Further Tests
+P00337,Carlos Mcmillan,85,Female,109.7,191,30.1,93/84,37/119,Non-Smoker,2,No,Heart Disease,Chest Pain,None,106,0,Healthy
+P00338,Benjamin Horton,30,Female,61.4,167,22.0,106/64,30/104,Non-Smoker,6,Yes,Asthma,Fever,Antibiotics,128,5,Treatment Required
+P00339,Sean Garcia,75,Female,98.9,179,30.9,117/85,60/182,Non-Smoker,2,Yes,Heart Disease,Headache,None,138,10,Monitor
+P00340,Tiffany Leon,86,Female,108.0,156,44.4,111/60,30/179,Non-Smoker,6,Yes,Asthma,Chest Pain,Insulin,151,2,Healthy
+P00341,Jessica Reynolds,25,Male,117.7,198,30.0,111/66,34/150,Smoker,1,Yes,Diabetes,Shortness of Breath,Painkillers,138,6,Treatment Required
+P00342,Ashley Cooley,61,Female,112.1,197,28.9,91/75,46/177,Smoker,4,No,Hypertension,Cough,None,179,10,Further Tests
+P00343,Alison Torres,23,Female,108.4,177,34.6,98/81,32/107,Smoker,7,Yes,Heart Disease,Fatigue,None,128,0,Treatment Required
+P00344,Barbara Blankenship,77,Male,90.4,182,27.3,119/71,34/126,Non-Smoker,5,Yes,None,Shortness of Breath,Painkillers,82,10,Monitor
+P00345,Molly Massey,89,Female,95.2,194,25.3,104/62,37/109,Non-Smoker,1,No,Diabetes,Fatigue,Beta Blockers,147,10,Monitor
+P00346,Dakota Hernandez,65,Female,85.4,177,27.3,115/61,37/154,Smoker,5,No,Asthma,Fatigue,Insulin,73,1,Healthy
+P00347,Michael Gordon,32,Female,114.5,182,34.6,97/64,47/131,Smoker,5,Yes,Asthma,Fatigue,Painkillers,101,3,Treatment Required
+P00348,Timothy Warner,72,Female,96.6,182,29.2,103/75,58/173,Non-Smoker,3,Yes,None,Headache,Beta Blockers,175,6,Monitor
+P00349,Adam Moore,79,Female,51.4,151,22.5,98/63,45/163,Smoker,6,No,Diabetes,Chest Pain,Beta Blockers,70,3,Healthy
+P00350,Doris Jordan,45,Female,57.7,200,14.4,120/76,54/147,Smoker,0,Yes,None,Shortness of Breath,Painkillers,123,6,Monitor
+P00351,Renee Morton,52,Female,84.2,197,21.7,108/90,51/126,Non-Smoker,7,No,Asthma,Fatigue,Painkillers,84,8,Treatment Required
+P00352,Heather Mason,89,Male,78.6,162,29.9,95/70,60/142,Non-Smoker,6,Yes,Asthma,Cough,None,140,4,Further Tests
+P00353,Joseph Roberts,50,Male,84.2,155,35.0,99/78,30/126,Smoker,6,No,None,Fever,Antibiotics,155,9,Healthy
+P00354,Pamela Jones,49,Female,51.1,191,14.0,127/73,55/115,Non-Smoker,7,Yes,Hypertension,Fever,None,84,8,Healthy
+P00355,Samantha Young,78,Female,76.6,190,21.2,140/88,60/151,Non-Smoker,5,Yes,Heart Disease,Chest Pain,Beta Blockers,94,9,Healthy
+P00356,Seth Foster,24,Male,65.9,170,22.8,119/61,34/157,Non-Smoker,4,No,Heart Disease,Fever,None,186,10,Treatment Required
+P00357,Edward Williams,87,Female,57.1,186,16.5,125/85,54/155,Smoker,5,No,None,Cough,Beta Blockers,184,0,Healthy
+P00358,Carol Cruz,20,Male,101.5,152,43.9,117/88,31/168,Non-Smoker,4,No,Heart Disease,Fever,None,196,10,Monitor
+P00359,Brenda Mckinney,80,Female,110.9,150,49.3,133/75,43/122,Non-Smoker,2,Yes,Hypertension,Cough,Beta Blockers,81,6,Treatment Required
+P00360,Nancy Torres,89,Male,119.0,150,52.9,93/79,37/190,Non-Smoker,6,No,Diabetes,Cough,Painkillers,72,3,Further Tests
+P00361,Christine Smith,40,Male,88.7,176,28.6,93/69,49/121,Smoker,0,Yes,Heart Disease,Chest Pain,None,76,6,Healthy
+P00362,Natalie Kennedy,85,Female,62.1,186,18.0,99/84,38/143,Non-Smoker,5,Yes,Diabetes,Fatigue,Beta Blockers,155,1,Further Tests
+P00363,Melissa Lee,30,Male,109.7,159,43.4,136/79,52/172,Smoker,2,No,Heart Disease,Fatigue,Antibiotics,79,9,Treatment Required
+P00364,Andrew Koch,23,Female,69.2,193,18.6,120/65,56/133,Non-Smoker,2,Yes,Diabetes,Fever,Antibiotics,188,4,Treatment Required
+P00365,Candice Moore,25,Male,111.2,191,30.5,107/80,34/175,Smoker,2,Yes,Asthma,Fatigue,Beta Blockers,178,10,Further Tests
+P00366,Kelli Flynn,20,Male,58.1,174,19.2,130/68,38/173,Smoker,0,Yes,Diabetes,Cough,Insulin,105,7,Monitor
+P00367,Timothy Gordon,66,Female,102.8,192,27.9,100/84,60/183,Smoker,6,Yes,Heart Disease,Fever,Beta Blockers,161,1,Monitor
+P00368,Amanda Munoz,47,Male,83.7,198,21.3,139/73,46/143,Non-Smoker,7,No,None,Fever,Painkillers,150,7,Treatment Required
+P00369,William Welch,48,Male,94.6,151,41.5,92/75,47/112,Smoker,4,No,Asthma,Fatigue,Painkillers,200,7,Further Tests
+P00370,Mrs. Erica Hall MD,60,Male,111.6,180,34.4,115/73,32/104,Non-Smoker,7,No,Hypertension,Shortness of Breath,Antibiotics,91,2,Healthy
+P00371,Kristin Gardner,55,Male,60.6,181,18.5,133/66,43/161,Non-Smoker,4,Yes,Asthma,Headache,Painkillers,191,2,Healthy
+P00372,Jose Whitney,53,Male,100.8,193,27.1,97/85,40/174,Non-Smoker,3,Yes,Hypertension,Headache,Antibiotics,190,4,Healthy
+P00373,Jessica Lane,47,Female,69.3,177,22.1,140/79,54/157,Non-Smoker,6,Yes,Hypertension,Chest Pain,None,196,8,Healthy
+P00374,Joshua Bell,21,Female,106.1,159,42.0,123/62,30/146,Smoker,2,No,Asthma,Shortness of Breath,Beta Blockers,157,0,Monitor
+P00375,Kevin Duran,89,Female,111.6,175,36.4,106/77,45/125,Non-Smoker,6,Yes,None,Fatigue,Beta Blockers,89,9,Monitor
+P00376,Bruce Johnson,55,Male,94.5,154,39.8,122/86,55/157,Non-Smoker,6,Yes,Hypertension,Cough,Antibiotics,163,2,Treatment Required
+P00377,Mallory Lopez,58,Female,101.3,163,38.1,92/67,47/166,Non-Smoker,2,No,Hypertension,Fever,Insulin,182,6,Monitor
+P00378,Lonnie Hall,29,Male,88.8,181,27.1,106/78,44/113,Non-Smoker,5,Yes,Asthma,Chest Pain,Antibiotics,146,6,Healthy
+P00379,Amy Johnson,34,Female,61.5,161,23.7,101/70,31/141,Non-Smoker,7,No,Heart Disease,Shortness of Breath,Insulin,164,4,Treatment Required
+P00380,Christopher Torres,34,Male,118.3,159,46.8,129/63,36/120,Smoker,2,Yes,Hypertension,Shortness of Breath,Beta Blockers,182,0,Healthy
+P00381,Nicole Schmitt,42,Female,119.8,189,33.5,100/89,45/169,Smoker,6,Yes,None,Fatigue,Beta Blockers,70,4,Healthy
+P00382,Brandon Carter,31,Female,73.1,188,20.7,139/86,49/139,Non-Smoker,1,No,Diabetes,Fatigue,Insulin,150,2,Healthy
+P00383,Kathleen Williams,86,Male,96.1,195,25.3,117/88,50/118,Non-Smoker,3,Yes,None,Cough,None,176,4,Monitor
+P00384,Taylor Chandler,48,Female,111.0,189,31.1,111/61,39/110,Smoker,1,No,Hypertension,Fatigue,Insulin,132,1,Further Tests
+P00385,Mackenzie Martinez,40,Female,116.2,200,29.1,135/74,56/127,Non-Smoker,0,Yes,None,Fever,None,144,0,Monitor
+P00386,James Daniels DVM,60,Female,50.1,187,14.3,131/65,44/117,Smoker,5,Yes,Hypertension,Shortness of Breath,Beta Blockers,76,2,Treatment Required
+P00387,Regina Patton,46,Male,79.8,158,32.0,92/76,48/170,Smoker,1,No,Hypertension,Fever,Antibiotics,84,4,Further Tests
+P00388,James King,52,Female,114.1,185,33.3,133/90,53/146,Smoker,4,No,None,Fever,Painkillers,77,0,Further Tests
+P00389,Debbie Austin,44,Male,108.8,155,45.3,112/72,33/154,Non-Smoker,7,Yes,None,Shortness of Breath,Beta Blockers,111,0,Treatment Required
+P00390,Sean Martinez,85,Male,87.1,154,36.7,117/73,40/157,Smoker,6,No,None,Chest Pain,Antibiotics,175,4,Healthy
+P00391,Justin Jones,38,Male,64.1,188,18.1,100/60,32/134,Smoker,5,Yes,Hypertension,Fatigue,None,114,10,Further Tests
+P00392,Benjamin Berry,23,Male,111.5,180,34.4,90/67,53/138,Non-Smoker,5,Yes,Hypertension,Headache,Antibiotics,129,2,Monitor
+P00393,Larry Taylor,70,Male,97.3,181,29.7,104/76,45/118,Smoker,5,Yes,Asthma,Chest Pain,Beta Blockers,103,8,Treatment Required
+P00394,Brandon Carter,40,Male,79.7,196,20.7,115/84,32/126,Smoker,6,No,Diabetes,Chest Pain,None,142,3,Further Tests
+P00395,Colleen Nguyen,30,Female,118.9,196,31.0,104/68,41/103,Smoker,7,Yes,Hypertension,Fever,Antibiotics,121,5,Treatment Required
+P00396,Elizabeth Bailey,50,Female,54.6,157,22.2,110/72,30/175,Non-Smoker,1,No,Asthma,Headache,Antibiotics,76,8,Monitor
+P00397,Nathan Williams,28,Female,50.4,157,20.4,120/79,34/117,Non-Smoker,7,No,None,Headache,None,159,4,Monitor
+P00398,Joseph Pugh,74,Female,54.9,200,13.7,125/60,44/134,Smoker,1,No,Diabetes,Fever,Beta Blockers,176,3,Monitor
+P00399,Daniel Lin,68,Female,54.7,162,20.8,101/78,49/172,Smoker,0,Yes,Hypertension,Headache,Painkillers,176,6,Healthy
+P00400,Barbara Nelson,73,Male,103.0,198,26.3,98/67,57/118,Non-Smoker,7,No,Hypertension,Fatigue,Antibiotics,96,10,Further Tests
+P00401,Steven Johnson,43,Female,100.6,179,31.4,103/90,56/105,Smoker,2,No,None,Headache,Antibiotics,104,9,Treatment Required
+P00402,Christopher Smith,79,Male,103.2,180,31.9,95/61,51/143,Non-Smoker,2,No,Diabetes,Chest Pain,None,167,0,Monitor
+P00403,April Duncan,90,Female,118.9,161,45.9,112/61,43/105,Smoker,0,No,Heart Disease,Cough,Insulin,76,2,Treatment Required
+P00404,Mathew Rivera,39,Female,80.6,173,26.9,119/87,35/104,Smoker,4,Yes,Asthma,Chest Pain,Painkillers,137,1,Further Tests
+P00405,Brandon Alvarado,18,Female,98.1,171,33.5,104/64,36/182,Smoker,6,Yes,None,Cough,Antibiotics,144,0,Treatment Required
+P00406,Cindy Fisher,70,Male,84.8,178,26.8,127/61,47/149,Non-Smoker,6,Yes,Asthma,Fatigue,Beta Blockers,191,8,Healthy
+P00407,Donna Yoder,25,Male,104.4,191,28.6,112/72,38/163,Smoker,5,No,Heart Disease,Shortness of Breath,Painkillers,137,0,Further Tests
+P00408,James Singh,30,Female,76.2,177,24.3,103/90,36/100,Smoker,4,No,Hypertension,Cough,Beta Blockers,129,4,Further Tests
+P00409,Steven Dominguez,18,Male,52.6,164,19.6,93/67,45/187,Non-Smoker,5,No,Heart Disease,Cough,Beta Blockers,75,9,Treatment Required
+P00410,William Robertson,30,Female,98.8,156,40.6,128/66,48/100,Smoker,7,Yes,Heart Disease,Headache,Insulin,181,6,Further Tests
+P00411,Isabel Christian,22,Female,100.0,189,28.0,134/87,38/112,Smoker,6,No,Diabetes,Fatigue,None,195,6,Further Tests
+P00412,Darren Jackson,55,Female,89.8,151,39.4,136/69,49/109,Non-Smoker,6,Yes,Heart Disease,Cough,None,169,5,Further Tests
+P00413,Joseph Evans,21,Female,57.0,198,14.5,103/84,43/145,Non-Smoker,4,No,Diabetes,Fever,Antibiotics,86,6,Further Tests
+P00414,Kelly Wade,55,Female,79.2,184,23.4,130/76,37/163,Non-Smoker,1,No,Diabetes,Fever,Insulin,72,9,Healthy
+P00415,Nicholas Cohen,75,Male,82.8,182,25.0,99/63,43/124,Smoker,2,No,Asthma,Fatigue,Beta Blockers,113,4,Further Tests
+P00416,Jonathan Allen,29,Female,106.4,195,28.0,122/86,58/154,Smoker,2,No,Diabetes,Cough,Insulin,103,4,Healthy
+P00417,Rodney Christensen,29,Female,91.4,194,24.3,126/78,52/188,Smoker,3,No,Heart Disease,Shortness of Breath,Antibiotics,174,4,Healthy
+P00418,Carrie Perez,23,Male,107.3,154,45.2,117/65,41/151,Non-Smoker,4,Yes,Heart Disease,Chest Pain,Painkillers,162,7,Monitor
+P00419,Mrs. Emily Webb PhD,18,Male,67.7,175,22.1,130/73,39/141,Smoker,3,No,None,Fatigue,Insulin,143,5,Monitor
+P00420,Peter Black,55,Female,105.8,176,34.2,101/76,44/126,Non-Smoker,2,Yes,Diabetes,Cough,Insulin,83,1,Further Tests
+P00421,Barry Spencer,47,Female,50.3,176,16.2,108/68,51/121,Non-Smoker,6,No,None,Headache,Antibiotics,187,4,Healthy
+P00422,Sarah Calderon,20,Male,98.5,170,34.1,111/66,47/140,Smoker,7,No,Diabetes,Cough,Painkillers,198,1,Further Tests
+P00423,Virginia Lee,76,Male,65.8,190,18.2,92/85,60/140,Smoker,4,Yes,Hypertension,Fatigue,None,176,3,Monitor
+P00424,Edward Lee,83,Female,72.8,185,21.3,91/61,47/139,Smoker,1,No,Hypertension,Cough,Antibiotics,175,5,Healthy
+P00425,Jonathan Frazier,69,Male,67.1,167,24.1,130/75,49/134,Non-Smoker,3,No,Asthma,Fever,Painkillers,123,4,Further Tests
+P00426,Joanne Rodriguez,90,Male,97.0,192,26.3,98/61,38/178,Non-Smoker,2,Yes,Asthma,Fever,Antibiotics,100,2,Healthy
+P00427,Nicole Manning,64,Male,76.8,180,23.7,104/60,46/139,Non-Smoker,1,No,Hypertension,Headache,Painkillers,190,3,Treatment Required
+P00428,Mary Lopez,24,Male,79.4,195,20.9,117/66,57/185,Non-Smoker,2,Yes,Hypertension,Fatigue,Insulin,117,9,Healthy
+P00429,Manuel Burgess,43,Male,111.1,160,43.4,123/78,60/126,Non-Smoker,3,Yes,Hypertension,Fever,Insulin,171,4,Healthy
+P00430,Phyllis Woods,60,Male,73.3,154,30.9,119/82,60/172,Smoker,5,No,Hypertension,Shortness of Breath,Insulin,141,1,Treatment Required
+P00431,Michael Page,18,Female,54.7,171,18.7,137/60,52/100,Non-Smoker,7,Yes,Hypertension,Headache,Insulin,85,7,Further Tests
+P00432,David Miller,47,Female,97.3,161,37.5,90/61,47/178,Smoker,0,Yes,Diabetes,Cough,None,117,0,Healthy
+P00433,Amy Reed,78,Female,116.2,156,47.7,96/66,54/166,Non-Smoker,5,No,Asthma,Fever,Beta Blockers,189,1,Further Tests
+P00434,Lauren Nelson,27,Male,55.5,187,15.9,138/83,59/171,Non-Smoker,5,Yes,Asthma,Fever,None,181,5,Monitor
+P00435,Jose Ford,22,Female,73.1,195,19.2,92/80,32/179,Smoker,7,No,Asthma,Fatigue,None,84,5,Treatment Required
+P00436,Crystal Clark PhD,44,Female,91.8,158,36.8,112/72,37/146,Smoker,0,Yes,Diabetes,Cough,Beta Blockers,127,6,Treatment Required
+P00437,Julian Duncan,88,Female,50.1,152,21.7,95/71,58/179,Smoker,4,No,None,Chest Pain,Beta Blockers,120,8,Treatment Required
+P00438,Christine Johnson,88,Female,92.1,155,38.3,103/74,38/188,Non-Smoker,6,Yes,Asthma,Headache,None,152,1,Monitor
+P00439,Diana Park,70,Female,98.4,179,30.7,119/71,56/171,Smoker,3,Yes,None,Headache,Insulin,122,10,Monitor
+P00440,Austin Jones,58,Female,55.3,191,15.2,116/71,31/104,Smoker,2,No,Hypertension,Cough,None,126,6,Further Tests
+P00441,Juan Smith,56,Female,85.0,199,21.5,97/69,47/119,Smoker,6,Yes,None,Cough,Insulin,146,7,Healthy
+P00442,James Hines,23,Female,98.3,172,33.2,117/66,45/101,Smoker,2,Yes,Heart Disease,Chest Pain,Insulin,119,9,Treatment Required
+P00443,Lisa Santiago,43,Female,69.3,188,19.6,107/86,39/136,Non-Smoker,0,No,Asthma,Shortness of Breath,Antibiotics,183,4,Treatment Required
+P00444,Mr. Thomas Mata III,89,Male,62.3,157,25.3,101/63,50/154,Smoker,6,No,Diabetes,Shortness of Breath,Beta Blockers,101,1,Treatment Required
+P00445,Anthony Brown,30,Male,50.4,199,12.7,125/83,40/187,Smoker,4,Yes,None,Shortness of Breath,None,113,1,Healthy
+P00446,Savannah Green,35,Male,90.1,186,26.0,121/63,56/125,Smoker,0,No,Heart Disease,Cough,Beta Blockers,90,1,Further Tests
+P00447,Brandon Soto,74,Male,113.6,199,28.7,121/73,36/108,Smoker,2,No,Diabetes,Headache,None,71,1,Healthy
+P00448,Jacob West,37,Female,83.6,169,29.3,110/82,58/113,Non-Smoker,1,No,None,Chest Pain,Beta Blockers,121,7,Healthy
+P00449,Jessica Mccarthy,46,Female,68.5,167,24.6,98/77,41/179,Smoker,7,Yes,Heart Disease,Headache,Painkillers,134,9,Treatment Required
+P00450,Pam Barker,70,Male,87.1,151,38.2,121/71,37/144,Non-Smoker,5,Yes,Asthma,Chest Pain,Antibiotics,106,7,Monitor
+P00451,Ian Graham,59,Female,59.9,185,17.5,127/67,52/173,Smoker,4,No,Asthma,Shortness of Breath,Painkillers,116,9,Further Tests
+P00452,David Garcia,70,Male,50.5,176,16.3,93/78,60/118,Non-Smoker,1,No,Hypertension,Headache,None,154,5,Monitor
+P00453,Brandi Frank,27,Male,108.9,192,29.5,109/72,54/118,Smoker,5,No,Asthma,Headache,None,181,2,Further Tests
+P00454,Barbara Mason,85,Female,95.3,190,26.4,92/70,48/104,Smoker,4,Yes,Asthma,Shortness of Breath,Painkillers,126,2,Healthy
+P00455,Megan Keller,84,Male,61.0,177,19.5,112/85,33/150,Non-Smoker,5,No,Diabetes,Headache,None,180,3,Treatment Required
+P00456,Lisa Rasmussen,58,Male,83.3,196,21.7,118/75,33/134,Smoker,6,No,Diabetes,Cough,Antibiotics,185,8,Healthy
+P00457,Alison Young,37,Male,59.3,185,17.3,120/69,30/115,Non-Smoker,6,Yes,None,Cough,Insulin,141,9,Monitor
+P00458,Belinda Ochoa,51,Male,118.8,179,37.1,140/64,53/103,Non-Smoker,5,No,Heart Disease,Fatigue,Antibiotics,89,8,Monitor
+P00459,Maurice Sanders,52,Male,57.2,164,21.3,103/86,59/111,Non-Smoker,6,No,Heart Disease,Shortness of Breath,None,90,6,Treatment Required
+P00460,Bob Richards,28,Female,104.1,166,37.8,94/70,35/130,Smoker,3,Yes,Heart Disease,Fever,Painkillers,168,2,Further Tests
+P00461,Tim Schmitt,42,Male,95.8,168,33.9,106/80,38/116,Smoker,2,Yes,Heart Disease,Chest Pain,Insulin,74,10,Monitor
+P00462,Brittany Williams,60,Female,87.1,178,27.5,127/73,32/123,Non-Smoker,2,No,None,Fatigue,Insulin,136,8,Healthy
+P00463,Megan Haynes,27,Female,85.7,184,25.3,136/68,34/128,Non-Smoker,4,Yes,Hypertension,Chest Pain,Painkillers,192,0,Monitor
+P00464,Eric Johnson,48,Female,111.1,150,49.4,125/84,33/114,Smoker,3,Yes,Hypertension,Chest Pain,None,84,1,Monitor
+P00465,Keith Johnson,69,Male,52.4,180,16.2,111/74,40/157,Non-Smoker,7,No,None,Chest Pain,None,83,9,Treatment Required
+P00466,Amy York,75,Female,82.0,185,24.0,94/61,36/132,Smoker,6,Yes,Hypertension,Fever,Antibiotics,120,6,Healthy
+P00467,Sandra Palmer,83,Male,59.0,196,15.4,129/63,50/115,Smoker,4,No,None,Cough,None,161,0,Treatment Required
+P00468,Dustin Long,53,Male,63.0,163,23.7,108/76,40/152,Non-Smoker,4,Yes,Hypertension,Chest Pain,Beta Blockers,98,2,Treatment Required
+P00469,Aaron Matthews,54,Female,96.6,190,26.8,115/87,57/132,Smoker,7,Yes,Diabetes,Chest Pain,Antibiotics,92,10,Treatment Required
+P00470,Lindsey Benson,31,Female,114.2,156,46.9,138/90,32/100,Smoker,7,Yes,Hypertension,Shortness of Breath,None,148,2,Healthy
+P00471,Sherry Bell,77,Female,101.6,193,27.3,99/63,56/104,Smoker,6,No,Hypertension,Fever,Beta Blockers,147,4,Monitor
+P00472,Kim Hall,50,Female,118.9,192,32.3,100/66,36/109,Smoker,1,Yes,None,Shortness of Breath,Painkillers,130,8,Healthy
+P00473,Amy Freeman,53,Male,66.6,152,28.8,128/82,54/144,Non-Smoker,2,Yes,Heart Disease,Fatigue,Painkillers,98,1,Monitor
+P00474,Christine Deleon,34,Male,117.5,192,31.9,108/65,35/135,Smoker,0,Yes,None,Headache,Beta Blockers,188,9,Monitor
+P00475,Justin Clark,22,Female,106.1,153,45.3,119/87,54/128,Smoker,1,Yes,Hypertension,Chest Pain,Antibiotics,86,7,Treatment Required
+P00476,Corey Ramirez,55,Female,79.1,155,32.9,107/75,50/183,Non-Smoker,4,Yes,Asthma,Chest Pain,Insulin,160,7,Further Tests
+P00477,Megan Adams,62,Female,61.5,158,24.6,104/60,34/186,Smoker,1,No,Asthma,Fever,Painkillers,189,9,Treatment Required
+P00478,Cathy White,54,Male,97.9,180,30.2,130/88,47/182,Smoker,2,No,Heart Disease,Headache,None,163,6,Healthy
+P00479,John Johnson,59,Female,69.2,175,22.6,96/79,56/169,Smoker,5,No,Asthma,Shortness of Breath,Insulin,198,7,Healthy
+P00480,Brianna Gallagher,19,Male,107.9,156,44.3,138/69,59/156,Non-Smoker,7,Yes,Asthma,Fatigue,None,187,1,Healthy
+P00481,Latoya Brown,37,Female,114.6,198,29.2,133/71,38/132,Non-Smoker,6,No,Asthma,Fever,Beta Blockers,92,9,Further Tests
+P00482,Thomas Nguyen,54,Female,80.4,154,33.9,112/64,48/186,Non-Smoker,6,No,Diabetes,Fatigue,None,138,7,Healthy
+P00483,Carla Pham,27,Female,114.6,153,49.0,109/71,31/158,Non-Smoker,5,No,Diabetes,Cough,Insulin,198,4,Further Tests
+P00484,Jennifer Steele,66,Female,80.8,156,33.2,108/66,33/143,Smoker,0,No,Diabetes,Fever,Insulin,73,9,Healthy
+P00485,Ian Clark,22,Female,93.4,181,28.5,106/88,49/169,Non-Smoker,0,No,Diabetes,Headache,Beta Blockers,94,0,Healthy
+P00486,Edward Taylor,74,Male,54.5,189,15.3,122/68,40/137,Non-Smoker,3,Yes,Heart Disease,Shortness of Breath,Painkillers,147,7,Healthy
+P00487,William Wheeler,56,Female,52.2,183,15.6,132/64,48/133,Smoker,0,Yes,Diabetes,Headache,None,172,9,Treatment Required
+P00488,Brian Gross,67,Female,78.8,166,28.6,94/63,31/133,Non-Smoker,1,Yes,Hypertension,Fatigue,Beta Blockers,178,0,Monitor
+P00489,Eugene Lee,39,Female,118.0,168,41.8,95/77,38/121,Smoker,2,No,None,Chest Pain,None,74,1,Healthy
+P00490,Angela Perez,53,Female,106.3,166,38.6,138/85,33/151,Smoker,7,No,Hypertension,Chest Pain,Antibiotics,158,6,Healthy
+P00491,Kaylee Reeves,33,Female,62.9,154,26.5,130/88,45/111,Smoker,7,Yes,None,Shortness of Breath,Beta Blockers,174,10,Monitor
+P00492,Lisa Wells,44,Male,99.8,163,37.6,136/64,48/172,Smoker,5,No,Diabetes,Cough,Painkillers,118,2,Monitor
+P00493,Jessica West,74,Female,81.7,193,21.9,97/82,41/108,Smoker,1,No,Diabetes,Shortness of Breath,Insulin,155,1,Healthy
+P00494,Daniel Rogers,47,Female,111.4,183,33.3,94/72,47/146,Non-Smoker,5,Yes,None,Cough,None,80,4,Treatment Required
+P00495,Barbara Nunez,26,Female,56.5,172,19.1,98/85,40/176,Smoker,6,Yes,Heart Disease,Shortness of Breath,Painkillers,158,8,Monitor
+P00496,Steven Lewis,30,Female,92.8,180,28.6,110/70,30/179,Non-Smoker,2,No,Hypertension,Fatigue,None,173,3,Further Tests
+P00497,Nicholas Cook,31,Male,74.8,168,26.5,116/68,58/106,Smoker,4,No,Hypertension,Headache,Beta Blockers,125,4,Monitor
+P00498,Stephen Valenzuela,77,Female,100.0,177,31.9,139/69,39/186,Smoker,2,No,Asthma,Chest Pain,Antibiotics,84,7,Further Tests
+P00499,Diane Gutierrez,64,Male,58.9,185,17.2,96/62,59/107,Smoker,2,Yes,Diabetes,Headache,Insulin,135,3,Treatment Required
+P00500,Alex Lee,42,Female,75.1,162,28.6,132/89,49/165,Non-Smoker,0,No,Hypertension,Shortness of Breath,None,158,9,Treatment Required
+P00501,Jonathan Moody,26,Female,114.9,173,38.4,105/85,32/170,Smoker,0,Yes,Heart Disease,Fever,None,118,0,Monitor
+P00502,Aaron Brown,67,Male,80.7,167,28.9,93/79,49/140,Smoker,3,No,Heart Disease,Fever,Beta Blockers,162,10,Healthy
+P00503,David Ward,39,Male,119.3,157,48.4,129/65,44/144,Smoker,4,Yes,Hypertension,Shortness of Breath,Beta Blockers,104,1,Monitor
+P00504,Crystal Lucas,83,Male,111.9,198,28.5,112/69,49/150,Non-Smoker,1,No,Diabetes,Headache,None,119,0,Monitor
+P00505,Donald Hall,24,Female,112.7,199,28.5,101/71,42/173,Non-Smoker,1,Yes,Hypertension,Shortness of Breath,Insulin,72,2,Further Tests
+P00506,Angela Watkins,75,Female,89.1,196,23.2,97/65,58/187,Smoker,3,No,Heart Disease,Fatigue,None,118,1,Treatment Required
+P00507,Elizabeth Knight,18,Female,90.2,158,36.1,128/85,51/129,Non-Smoker,5,No,Diabetes,Fatigue,Insulin,104,0,Monitor
+P00508,Fernando Thornton,66,Male,71.1,162,27.1,119/90,30/169,Non-Smoker,0,No,None,Cough,Painkillers,141,4,Monitor
+P00509,Alan Burgess,63,Male,90.1,163,33.9,105/72,57/118,Smoker,7,Yes,None,Cough,Beta Blockers,71,5,Further Tests
+P00510,Eric Carson,24,Female,89.9,180,27.7,93/62,58/103,Smoker,3,No,Heart Disease,Cough,Antibiotics,81,8,Healthy
+P00511,Mary Walker,87,Female,110.2,188,31.2,123/68,38/163,Smoker,6,Yes,Hypertension,Fatigue,Insulin,178,5,Further Tests
+P00512,Robert Foster,44,Female,78.2,189,21.9,101/76,49/159,Smoker,7,Yes,None,Cough,Painkillers,199,2,Monitor
+P00513,Emily Ellis,82,Male,117.2,196,30.5,123/69,58/121,Smoker,6,No,Asthma,Chest Pain,Beta Blockers,83,10,Treatment Required
+P00514,Jill Hammond,29,Female,79.6,180,24.6,109/68,51/157,Smoker,0,Yes,Diabetes,Fatigue,Beta Blockers,200,10,Monitor
+P00515,Susan Anderson,76,Female,96.8,186,28.0,113/69,34/141,Non-Smoker,1,Yes,Asthma,Fatigue,None,113,5,Healthy
+P00516,Pamela Robles,63,Female,92.5,185,27.0,124/76,37/117,Non-Smoker,5,Yes,Hypertension,Cough,Beta Blockers,128,8,Further Tests
+P00517,Julia Daniels,80,Male,80.9,175,26.4,93/90,45/140,Non-Smoker,2,No,Asthma,Cough,Beta Blockers,113,2,Further Tests
+P00518,Anna Wilson,75,Female,71.6,168,25.4,96/62,57/120,Non-Smoker,4,No,Diabetes,Fatigue,Insulin,124,5,Further Tests
+P00519,Mr. Mitchell Smith,19,Male,61.2,171,20.9,108/75,49/127,Non-Smoker,4,Yes,Hypertension,Headache,None,148,9,Further Tests
+P00520,Micheal Riley,56,Female,77.4,161,29.9,108/73,54/106,Smoker,2,No,Heart Disease,Chest Pain,None,72,1,Treatment Required
+P00521,Kristie Payne,72,Female,64.4,184,19.0,103/78,54/167,Smoker,5,Yes,Diabetes,Shortness of Breath,Painkillers,170,8,Treatment Required
+P00522,Jennifer Chaney,66,Male,103.2,161,39.8,99/83,40/160,Smoker,6,Yes,Heart Disease,Fever,None,173,5,Further Tests
+P00523,Emily Taylor,41,Male,93.5,178,29.5,98/82,57/108,Smoker,5,No,Hypertension,Headache,Painkillers,87,10,Healthy
+P00524,Carl Gutierrez,54,Female,94.2,173,31.5,131/80,52/122,Non-Smoker,3,No,None,Headache,Antibiotics,142,10,Further Tests
+P00525,Jennifer Pierce,27,Male,85.2,183,25.4,117/73,44/140,Non-Smoker,2,Yes,Asthma,Headache,Insulin,95,6,Further Tests
+P00526,Anthony Greene,88,Male,69.0,199,17.4,125/62,49/135,Non-Smoker,6,Yes,Hypertension,Shortness of Breath,Painkillers,183,10,Further Tests
+P00527,John Mcbride,34,Female,62.5,191,17.1,126/60,58/159,Non-Smoker,6,Yes,Asthma,Cough,Antibiotics,176,3,Monitor
+P00528,Victor Wright,45,Male,57.4,170,19.9,102/85,50/143,Smoker,4,No,None,Fatigue,Antibiotics,147,6,Healthy
+P00529,Samuel Davidson,69,Female,54.3,155,22.6,119/86,60/124,Smoker,7,Yes,Heart Disease,Fatigue,None,75,1,Treatment Required
+P00530,Rita Johnson,33,Female,86.4,198,22.0,92/62,50/135,Non-Smoker,3,No,Heart Disease,Cough,Insulin,120,8,Monitor
+P00531,Mark Wilcox,34,Female,70.4,153,30.1,126/68,49/104,Non-Smoker,0,Yes,Heart Disease,Chest Pain,None,136,0,Further Tests
+P00532,Tanya Baker,38,Male,84.8,169,29.7,124/76,53/160,Smoker,5,No,None,Cough,Insulin,121,0,Healthy
+P00533,Danielle Ewing,65,Male,104.5,181,31.9,130/80,36/139,Smoker,6,Yes,Hypertension,Fatigue,Insulin,72,0,Monitor
+P00534,Barry Smith DVM,32,Female,82.7,163,31.1,111/81,59/185,Smoker,0,No,Heart Disease,Headache,None,190,2,Further Tests
+P00535,Rachel Smith,21,Male,68.0,200,17.0,113/76,60/142,Non-Smoker,3,No,Hypertension,Fever,Painkillers,95,9,Healthy
+P00536,William White,45,Male,85.8,160,33.5,115/63,37/139,Non-Smoker,6,No,None,Cough,Antibiotics,112,7,Further Tests
+P00537,Meghan Young,60,Female,110.8,180,34.2,116/75,35/125,Non-Smoker,3,No,Hypertension,Chest Pain,Beta Blockers,186,8,Healthy
+P00538,Jason Kelley Jr.,26,Male,111.4,196,29.0,117/74,36/119,Smoker,7,Yes,Diabetes,Cough,Insulin,91,2,Monitor
+P00539,Nicholas Ponce,68,Female,56.5,167,20.3,140/80,60/114,Non-Smoker,7,Yes,Hypertension,Cough,Antibiotics,128,10,Treatment Required
+P00540,Timothy Daniel,37,Male,59.3,184,17.5,132/60,44/178,Non-Smoker,7,Yes,Hypertension,Fatigue,Beta Blockers,134,10,Treatment Required
+P00541,Rebecca Henderson,72,Male,76.1,169,26.6,119/90,57/165,Smoker,1,Yes,Asthma,Fatigue,Insulin,171,1,Monitor
+P00542,Courtney Robertson,39,Female,52.0,197,13.4,93/72,52/108,Smoker,4,Yes,Heart Disease,Shortness of Breath,None,100,0,Healthy
+P00543,Jessica Wyatt,50,Male,99.0,189,27.7,127/84,41/132,Non-Smoker,4,Yes,Asthma,Chest Pain,Beta Blockers,190,3,Monitor
+P00544,Deborah Adkins,29,Male,77.4,154,32.6,136/74,34/109,Non-Smoker,1,Yes,None,Cough,None,135,8,Further Tests
+P00545,Rebecca Ramirez,56,Male,80.7,199,20.4,99/74,31/140,Smoker,7,No,Heart Disease,Headache,Antibiotics,104,10,Further Tests
+P00546,Kaitlyn Ryan,90,Female,72.9,199,18.4,91/75,53/137,Smoker,6,No,Hypertension,Headache,Antibiotics,156,2,Further Tests
+P00547,Matthew Jones,37,Female,77.3,191,21.2,110/65,49/116,Smoker,4,No,Asthma,Cough,Painkillers,71,4,Healthy
+P00548,Rebecca Henderson,85,Female,114.6,190,31.7,119/71,47/147,Non-Smoker,0,Yes,Heart Disease,Cough,Beta Blockers,145,1,Monitor
+P00549,Joseph Walker,49,Male,85.8,172,29.0,108/73,45/179,Smoker,0,Yes,Hypertension,Cough,Insulin,79,9,Further Tests
+P00550,Gregory Davidson,54,Male,67.1,194,17.8,100/77,56/143,Smoker,6,No,Diabetes,Shortness of Breath,Painkillers,138,7,Monitor
+P00551,Zachary Bailey,26,Male,74.2,168,26.3,106/89,45/160,Smoker,2,No,Asthma,Cough,Insulin,144,9,Healthy
+P00552,Jacqueline White,69,Female,114.1,172,38.6,111/79,58/139,Smoker,4,Yes,Diabetes,Fever,Insulin,157,2,Further Tests
+P00553,Patricia Brown,46,Male,107.1,153,45.8,95/67,51/188,Non-Smoker,2,Yes,Heart Disease,Fever,Insulin,82,6,Further Tests
+P00554,Tony Brown,70,Male,92.0,187,26.3,112/61,33/163,Smoker,4,No,Diabetes,Headache,Beta Blockers,198,2,Further Tests
+P00555,Kevin Barry,52,Female,53.4,150,23.7,107/80,36/118,Smoker,0,No,Hypertension,Fever,Painkillers,105,1,Monitor
+P00556,John Burke,22,Male,116.6,195,30.7,138/83,32/112,Smoker,6,No,Hypertension,Chest Pain,None,134,4,Monitor
+P00557,Lindsey Taylor,43,Male,55.3,188,15.6,91/73,53/137,Smoker,6,No,Asthma,Fatigue,Insulin,176,0,Healthy
+P00558,Norma Baldwin,37,Female,94.5,159,37.4,113/67,37/121,Smoker,5,Yes,Diabetes,Cough,Painkillers,109,10,Further Tests
+P00559,Daniel Davidson,75,Male,101.9,180,31.5,90/67,53/153,Non-Smoker,3,Yes,Hypertension,Headache,Painkillers,192,3,Monitor
+P00560,Michael Gardner,35,Female,54.7,190,15.2,122/65,49/133,Non-Smoker,4,Yes,Hypertension,Fatigue,Painkillers,119,2,Monitor
+P00561,Dr. Christopher Mcneil,30,Male,101.6,191,27.9,124/86,58/122,Smoker,0,No,Heart Disease,Chest Pain,Beta Blockers,116,10,Further Tests
+P00562,Tracy Douglas,36,Female,84.7,186,24.5,132/75,58/178,Smoker,6,Yes,Asthma,Fatigue,Beta Blockers,184,1,Monitor
+P00563,Patricia Williams,49,Male,100.0,182,30.2,121/62,39/118,Non-Smoker,1,No,Hypertension,Fever,Antibiotics,184,2,Monitor
+P00564,Kim Harris,68,Male,102.3,177,32.7,102/75,39/172,Smoker,2,Yes,Hypertension,Headache,Insulin,187,4,Further Tests
+P00565,Leon Ward,64,Female,72.7,178,22.9,92/61,48/106,Smoker,6,Yes,None,Fatigue,Insulin,84,0,Further Tests
+P00566,Gary Hernandez,46,Female,98.3,180,30.3,94/60,36/103,Non-Smoker,4,Yes,None,Headache,Insulin,141,5,Monitor
+P00567,Joshua Stevens,85,Male,64.0,176,20.7,109/72,52/181,Non-Smoker,2,No,Heart Disease,Fever,None,164,7,Further Tests
+P00568,Jacob Crosby,83,Female,85.8,154,36.2,127/61,55/153,Smoker,5,No,Heart Disease,Headache,Painkillers,174,3,Further Tests
+P00569,Craig Carroll,84,Female,111.5,164,41.5,116/61,51/140,Non-Smoker,3,No,Heart Disease,Chest Pain,Beta Blockers,118,3,Treatment Required
+P00570,Mr. Isaiah Williams,48,Female,67.6,163,25.4,123/90,43/147,Smoker,0,No,None,Shortness of Breath,Beta Blockers,145,3,Monitor
+P00571,Mathew Anderson,31,Female,117.6,170,40.7,101/86,41/117,Smoker,0,Yes,None,Chest Pain,Antibiotics,161,10,Monitor
+P00572,Brandi Howard,81,Male,119.6,179,37.3,137/89,59/189,Smoker,3,No,Hypertension,Cough,None,139,3,Monitor
+P00573,Timothy Wallace,78,Female,55.0,160,21.5,138/66,59/124,Non-Smoker,3,No,Diabetes,Headache,Insulin,126,9,Further Tests
+P00574,Julia Stewart,40,Female,103.4,184,30.5,109/74,49/158,Smoker,6,No,None,Chest Pain,Beta Blockers,121,10,Healthy
+P00575,Christopher Davis,33,Male,68.2,188,19.3,139/67,56/144,Non-Smoker,0,Yes,Diabetes,Fever,Beta Blockers,159,5,Treatment Required
+P00576,Shawn Hawkins,44,Female,83.6,154,35.3,108/61,30/125,Smoker,1,Yes,Asthma,Chest Pain,Beta Blockers,76,0,Monitor
+P00577,Jessica Green,18,Female,106.9,155,44.5,100/69,51/171,Smoker,1,Yes,Asthma,Headache,Antibiotics,114,7,Monitor
+P00578,Megan Reed,19,Female,65.8,200,16.4,94/74,38/184,Non-Smoker,6,Yes,Hypertension,Shortness of Breath,Insulin,129,5,Further Tests
+P00579,Miguel Mack,21,Male,114.4,184,33.8,131/73,43/132,Non-Smoker,2,No,Hypertension,Chest Pain,Insulin,193,0,Further Tests
+P00580,David Harper,66,Female,63.4,170,21.9,103/61,57/148,Non-Smoker,0,Yes,Hypertension,Fatigue,Antibiotics,111,4,Monitor
+P00581,Danny Chandler,64,Male,68.2,169,23.9,114/78,31/123,Smoker,1,Yes,Asthma,Chest Pain,None,80,1,Monitor
+P00582,Michelle Morton,40,Female,115.7,162,44.1,113/74,46/105,Non-Smoker,6,No,Hypertension,Cough,Antibiotics,120,2,Treatment Required
+P00583,David Henderson,21,Male,64.9,155,27.0,100/74,55/188,Smoker,6,Yes,Diabetes,Chest Pain,Painkillers,105,3,Further Tests
+P00584,Kim Page PhD,20,Male,110.7,188,31.3,125/66,51/121,Smoker,5,No,Asthma,Fever,Painkillers,122,8,Further Tests
+P00585,Ian Shelton,74,Female,72.1,166,26.2,104/89,60/168,Non-Smoker,4,No,None,Shortness of Breath,Painkillers,114,10,Treatment Required
+P00586,Jose Obrien,50,Male,92.7,181,28.3,94/78,52/190,Non-Smoker,3,No,Hypertension,Fatigue,Painkillers,136,3,Healthy
+P00587,David Wright,32,Male,55.9,150,24.8,122/63,52/183,Non-Smoker,0,Yes,Heart Disease,Chest Pain,Beta Blockers,151,2,Treatment Required
+P00588,Andrew Robinson,64,Male,60.2,184,17.8,129/69,57/118,Non-Smoker,0,No,Heart Disease,Shortness of Breath,None,92,4,Monitor
+P00589,Regina Anderson,74,Male,61.8,163,23.3,111/78,56/135,Non-Smoker,2,Yes,Heart Disease,Headache,Antibiotics,173,5,Treatment Required
+P00590,David Jacobs,64,Male,99.7,193,26.8,93/70,41/152,Smoker,4,Yes,Asthma,Shortness of Breath,Beta Blockers,155,10,Healthy
+P00591,Renee Suarez,58,Female,115.0,179,35.9,106/72,34/187,Smoker,7,Yes,None,Fever,Insulin,121,3,Healthy
+P00592,Catherine Sosa,43,Female,73.0,156,30.0,122/69,48/149,Non-Smoker,6,No,Asthma,Shortness of Breath,Antibiotics,107,2,Treatment Required
+P00593,Amy Maxwell,54,Female,107.5,159,42.5,107/75,39/165,Non-Smoker,7,No,Hypertension,Fatigue,Painkillers,132,5,Treatment Required
+P00594,Scott Moore,83,Female,84.5,172,28.6,121/68,43/144,Smoker,1,No,Heart Disease,Fatigue,Antibiotics,113,6,Treatment Required
+P00595,Mary Johnson,52,Female,93.3,151,40.9,104/71,40/108,Non-Smoker,1,Yes,Asthma,Cough,None,129,1,Healthy
+P00596,Richard Herrera,75,Male,76.5,165,28.1,131/75,39/104,Smoker,4,Yes,Hypertension,Chest Pain,Insulin,140,8,Treatment Required
+P00597,Patrick Alexander,26,Female,116.7,194,31.0,115/88,32/130,Non-Smoker,7,No,Hypertension,Headache,Painkillers,132,9,Monitor
+P00598,Tyler Matthews,66,Male,76.4,161,29.5,109/79,48/163,Smoker,4,No,Hypertension,Cough,Painkillers,178,9,Further Tests
+P00599,Crystal Summers,34,Male,71.3,174,23.6,114/86,58/105,Non-Smoker,4,Yes,Asthma,Cough,Insulin,173,6,Treatment Required
+P00600,Michael Wolf,65,Male,89.3,161,34.5,109/65,53/186,Smoker,3,No,Diabetes,Fever,Insulin,87,4,Further Tests
+P00601,Samuel Robbins,47,Male,99.4,192,27.0,94/87,49/114,Non-Smoker,7,No,Asthma,Shortness of Breath,None,113,6,Further Tests
+P00602,Jacqueline Garcia,28,Female,57.6,173,19.2,132/66,59/176,Non-Smoker,5,No,None,Fever,None,127,5,Healthy
+P00603,Gerald Thomas,51,Male,82.7,151,36.3,100/88,37/146,Non-Smoker,1,Yes,Asthma,Fatigue,Painkillers,171,8,Further Tests
+P00604,Vincent Shepherd,39,Female,63.7,183,19.0,95/80,53/160,Non-Smoker,2,No,None,Fatigue,Antibiotics,192,2,Monitor
+P00605,Jose Carson,32,Female,83.4,185,24.4,109/74,60/189,Smoker,6,No,Diabetes,Fever,Insulin,80,10,Further Tests
+P00606,Chelsea Cook,20,Female,76.6,200,19.1,123/89,43/187,Non-Smoker,5,Yes,Asthma,Chest Pain,None,143,3,Further Tests
+P00607,Sarah Joyce,66,Female,91.7,179,28.6,120/68,39/145,Smoker,0,No,Heart Disease,Fever,Painkillers,133,4,Treatment Required
+P00608,Susan Harris,21,Female,75.6,194,20.1,126/70,51/110,Smoker,6,Yes,Hypertension,Chest Pain,Antibiotics,154,8,Further Tests
+P00609,Nicholas Rowland,79,Male,82.0,170,28.4,130/62,42/171,Smoker,5,Yes,Diabetes,Chest Pain,None,105,8,Treatment Required
+P00610,Morgan Adams,79,Female,68.3,183,20.4,99/84,59/163,Non-Smoker,6,Yes,None,Headache,None,131,2,Treatment Required
+P00611,Carolyn Turner,18,Male,112.5,195,29.6,129/87,59/123,Non-Smoker,2,Yes,Heart Disease,Chest Pain,Insulin,91,2,Treatment Required
+P00612,Matthew Holt,57,Male,52.9,173,17.7,129/78,57/166,Non-Smoker,5,No,Asthma,Fatigue,Antibiotics,113,3,Further Tests
+P00613,April Weeks,83,Female,87.3,177,27.9,91/84,46/152,Non-Smoker,7,No,Diabetes,Headache,Antibiotics,160,0,Healthy
+P00614,Michael Chandler,56,Male,50.8,152,22.0,109/61,37/136,Non-Smoker,6,Yes,Hypertension,Fatigue,Antibiotics,191,10,Healthy
+P00615,Kiara Rodriguez,19,Female,51.0,173,17.0,127/74,43/131,Smoker,6,No,None,Headache,Painkillers,93,7,Treatment Required
+P00616,Kevin Wright,23,Male,115.1,155,47.9,137/64,52/158,Non-Smoker,5,Yes,None,Cough,Insulin,90,4,Monitor
+P00617,Scott Schmidt,47,Male,53.7,171,18.4,112/80,54/106,Non-Smoker,7,Yes,Diabetes,Cough,Beta Blockers,88,7,Further Tests
+P00618,Katelyn Gomez,55,Male,98.5,181,30.1,128/68,38/103,Smoker,6,No,Diabetes,Chest Pain,Beta Blockers,183,5,Monitor
+P00619,Catherine Holland,49,Female,89.5,177,28.6,122/90,41/114,Smoker,6,Yes,Hypertension,Fatigue,Painkillers,123,5,Treatment Required
+P00620,Sarah Bradley,32,Male,118.1,168,41.8,96/88,42/159,Smoker,1,No,None,Headache,Antibiotics,143,6,Further Tests
+P00621,Thomas Jackson,77,Male,99.9,162,38.1,109/72,43/127,Non-Smoker,0,No,Diabetes,Cough,Antibiotics,157,0,Treatment Required
+P00622,Tammy Frazier,25,Female,54.8,168,19.4,125/74,41/122,Smoker,1,No,Diabetes,Fever,Antibiotics,106,8,Healthy
+P00623,Evelyn Delacruz,42,Male,83.3,199,21.0,123/60,56/122,Smoker,4,Yes,Asthma,Fatigue,Insulin,96,0,Treatment Required
+P00624,Natalie Villegas,69,Male,64.3,198,16.4,131/72,44/172,Non-Smoker,4,No,None,Shortness of Breath,Insulin,137,3,Treatment Required
+P00625,Lee Olsen,31,Male,95.2,180,29.4,98/90,57/176,Non-Smoker,1,Yes,Heart Disease,Fever,Insulin,153,3,Further Tests
+P00626,Ryan Young,25,Male,88.0,185,25.7,102/86,51/187,Smoker,5,No,Hypertension,Fever,None,149,8,Healthy
+P00627,Kent Acevedo,90,Male,102.4,158,41.0,139/76,52/117,Smoker,0,Yes,Asthma,Headache,None,194,10,Further Tests
+P00628,Julie Ford,79,Male,93.6,172,31.6,104/90,59/171,Non-Smoker,4,No,None,Shortness of Breath,Antibiotics,96,7,Healthy
+P00629,Terry Smith,21,Male,115.8,176,37.4,108/82,34/188,Smoker,0,Yes,Diabetes,Fever,Painkillers,133,9,Healthy
+P00630,Julia Williams,53,Female,80.8,164,30.0,103/66,33/161,Smoker,0,No,Heart Disease,Fever,Antibiotics,119,5,Further Tests
+P00631,Stephanie Bradley,82,Male,80.5,165,29.6,97/61,49/100,Non-Smoker,2,No,Diabetes,Headache,Antibiotics,172,1,Further Tests
+P00632,Casey Cox,33,Male,118.4,191,32.5,110/90,50/162,Non-Smoker,4,No,Asthma,Chest Pain,Painkillers,192,5,Further Tests
+P00633,Rachel Phillips,63,Male,65.8,174,21.7,136/87,42/144,Non-Smoker,6,Yes,Asthma,Fever,Antibiotics,77,8,Further Tests
+P00634,Erik Miller,74,Female,106.3,164,39.5,103/88,40/163,Non-Smoker,5,No,None,Chest Pain,Beta Blockers,174,0,Monitor
+P00635,Stacy Johnson,29,Male,96.2,189,26.9,130/72,46/117,Non-Smoker,2,Yes,Asthma,Chest Pain,None,72,7,Further Tests
+P00636,Jose White,68,Male,66.9,166,24.3,92/69,32/171,Smoker,0,No,Asthma,Fever,Painkillers,131,5,Healthy
+P00637,Jesse Hunt,21,Male,84.2,184,24.9,136/88,51/135,Smoker,1,Yes,None,Fatigue,Insulin,200,9,Monitor
+P00638,Chad Patterson,45,Female,79.3,158,31.8,121/79,30/107,Smoker,3,Yes,Hypertension,Fatigue,None,164,8,Treatment Required
+P00639,Phillip Espinoza,59,Male,51.5,196,13.4,122/86,36/187,Non-Smoker,7,No,Diabetes,Chest Pain,None,75,9,Monitor
+P00640,Jeffrey Stuart,32,Female,89.5,185,26.2,125/87,42/189,Smoker,2,No,Asthma,Fatigue,Beta Blockers,89,5,Healthy
+P00641,Nichole Prince,32,Male,112.5,168,39.9,118/60,30/106,Non-Smoker,1,No,Diabetes,Chest Pain,Beta Blockers,117,2,Treatment Required
+P00642,Terry Lee,75,Female,51.4,160,20.1,140/77,46/117,Smoker,4,No,Hypertension,Shortness of Breath,Insulin,152,6,Monitor
+P00643,Meredith Ramirez,85,Male,59.8,172,20.2,117/61,44/137,Smoker,3,No,Diabetes,Headache,Insulin,101,9,Further Tests
+P00644,Erica Wilkerson,39,Female,83.2,183,24.8,94/71,36/115,Non-Smoker,5,No,Asthma,Fever,Painkillers,156,9,Treatment Required
+P00645,Laura Campbell,24,Male,106.8,158,42.8,114/80,43/140,Smoker,4,Yes,Heart Disease,Fatigue,Antibiotics,130,0,Treatment Required
+P00646,Stephanie Casey,34,Female,94.7,152,41.0,91/63,48/182,Smoker,7,No,Diabetes,Fatigue,Insulin,120,1,Healthy
+P00647,Ryan Thompson,40,Female,81.3,183,24.3,97/77,42/154,Smoker,7,No,Diabetes,Chest Pain,None,162,2,Monitor
+P00648,Michael Rich,53,Female,110.9,164,41.2,121/80,48/178,Non-Smoker,6,No,Hypertension,Fatigue,Antibiotics,84,7,Treatment Required
+P00649,Joshua Parker,30,Female,67.0,179,20.9,134/70,57/127,Non-Smoker,4,Yes,Diabetes,Fever,Antibiotics,81,0,Further Tests
+P00650,Patrick Yang,31,Male,66.6,183,19.9,105/87,55/186,Non-Smoker,6,Yes,Hypertension,Chest Pain,Painkillers,173,3,Treatment Required
+P00651,John Evans,79,Female,89.2,175,29.1,109/77,49/133,Non-Smoker,2,No,Asthma,Headache,Beta Blockers,85,2,Further Tests
+P00652,Brenda Jones,69,Male,78.5,189,22.0,102/70,42/189,Smoker,3,No,Diabetes,Fatigue,None,100,2,Treatment Required
+P00653,Robert Rodriguez,87,Female,100.2,170,34.7,138/79,54/106,Non-Smoker,3,No,Asthma,Fatigue,Insulin,165,6,Monitor
+P00654,Amanda Chambers,87,Male,83.9,185,24.5,101/75,32/116,Smoker,2,No,Heart Disease,Fatigue,Antibiotics,149,0,Monitor
+P00655,Evan Peters,76,Male,70.7,193,19.0,129/77,32/130,Non-Smoker,5,Yes,Hypertension,Cough,None,147,8,Healthy
+P00656,John Flowers,86,Male,63.2,177,20.2,108/63,59/162,Non-Smoker,7,Yes,None,Cough,None,138,3,Further Tests
+P00657,Frances Kline,69,Male,57.3,171,19.6,107/79,34/123,Smoker,4,Yes,Heart Disease,Shortness of Breath,Insulin,76,5,Monitor
+P00658,Jeffrey Davis,78,Male,95.7,157,38.8,90/86,33/173,Non-Smoker,2,Yes,Heart Disease,Headache,Antibiotics,74,1,Healthy
+P00659,Vickie Henderson,42,Male,107.4,177,34.3,103/70,59/131,Smoker,1,Yes,Diabetes,Cough,None,143,1,Healthy
+P00660,Joshua Hinton,44,Male,90.0,183,26.9,139/79,36/132,Non-Smoker,2,No,Diabetes,Chest Pain,Insulin,196,6,Treatment Required
+P00661,Laura Stewart,37,Male,64.6,167,23.2,123/87,35/134,Smoker,0,Yes,Heart Disease,Headache,Insulin,71,5,Further Tests
+P00662,Jennifer Evans,45,Female,61.1,159,24.2,106/76,32/107,Smoker,6,Yes,Hypertension,Fatigue,Insulin,192,8,Further Tests
+P00663,Julie Cline DVM,70,Male,91.2,198,23.3,93/77,40/164,Non-Smoker,2,No,Hypertension,Headache,Insulin,100,5,Monitor
+P00664,Brooke Farmer,85,Male,74.7,197,19.2,108/69,30/145,Smoker,0,No,Heart Disease,Chest Pain,None,127,7,Healthy
+P00665,Nancy Sloan,25,Female,89.1,168,31.6,93/66,53/111,Non-Smoker,4,Yes,Diabetes,Chest Pain,Antibiotics,171,8,Further Tests
+P00666,Stacy Mitchell,89,Male,104.4,185,30.5,97/63,55/149,Non-Smoker,3,No,Asthma,Fatigue,Painkillers,79,0,Healthy
+P00667,James Mejia,84,Male,106.3,169,37.2,130/74,32/184,Non-Smoker,0,Yes,Asthma,Headache,Antibiotics,100,5,Further Tests
+P00668,Ronnie Hayes,70,Male,82.1,175,26.8,104/81,53/158,Non-Smoker,1,Yes,None,Chest Pain,Antibiotics,168,5,Healthy
+P00669,Jessica Oliver,57,Female,95.3,198,24.3,115/82,48/150,Non-Smoker,6,Yes,Asthma,Cough,Insulin,156,3,Treatment Required
+P00670,Timothy Owens,74,Male,111.1,163,41.8,130/71,49/145,Non-Smoker,1,Yes,Diabetes,Cough,None,72,7,Healthy
+P00671,Veronica Mcbride,31,Female,52.1,152,22.6,96/73,53/139,Non-Smoker,0,Yes,Asthma,Cough,Painkillers,81,1,Monitor
+P00672,Noah Andrade,25,Male,70.1,194,18.6,136/64,40/112,Smoker,7,No,None,Shortness of Breath,None,93,8,Healthy
+P00673,Kurt Anderson,27,Female,62.6,151,27.5,90/81,41/100,Smoker,3,No,Diabetes,Shortness of Breath,Insulin,136,8,Treatment Required
+P00674,Courtney Martinez,84,Male,70.9,181,21.6,131/84,33/150,Smoker,4,Yes,Heart Disease,Chest Pain,None,105,7,Treatment Required
+P00675,William Martin,22,Female,78.8,162,30.0,132/62,48/181,Smoker,3,Yes,None,Fatigue,None,125,6,Further Tests
+P00676,Kelly Meyer,34,Male,94.5,188,26.7,100/83,32/134,Non-Smoker,5,No,Heart Disease,Chest Pain,Insulin,129,4,Healthy
+P00677,Brooke Avery,22,Female,60.6,178,19.1,122/87,46/125,Smoker,7,Yes,None,Fever,Insulin,193,1,Healthy
+P00678,Anthony Miller DVM,73,Female,62.3,185,18.2,102/66,37/130,Non-Smoker,1,Yes,Diabetes,Fatigue,Painkillers,177,0,Further Tests
+P00679,Matthew Cook,55,Male,58.4,150,26.0,137/74,53/154,Smoker,5,Yes,Diabetes,Chest Pain,Beta Blockers,196,3,Monitor
+P00680,Chase Griffin,52,Female,76.8,168,27.2,121/85,45/147,Smoker,6,Yes,Diabetes,Fever,Beta Blockers,119,5,Healthy
+P00681,William Hart,70,Male,96.8,166,35.1,127/63,58/128,Non-Smoker,6,Yes,Asthma,Fever,Beta Blockers,134,10,Treatment Required
+P00682,Rebecca Miller,37,Female,119.8,190,33.2,131/63,35/154,Non-Smoker,7,Yes,Heart Disease,Shortness of Breath,Painkillers,195,5,Healthy
+P00683,Daniel Abbott,67,Male,104.3,153,44.6,116/76,43/173,Non-Smoker,3,Yes,Diabetes,Fever,Painkillers,115,5,Further Tests
+P00684,Maria Montgomery,79,Male,99.4,197,25.6,131/65,53/157,Non-Smoker,3,No,Diabetes,Shortness of Breath,Insulin,192,8,Treatment Required
+P00685,Dr. Alan Romero,62,Female,101.6,184,30.0,102/79,42/136,Smoker,7,Yes,Asthma,Headache,Painkillers,109,5,Monitor
+P00686,Crystal Alvarado,43,Female,57.4,184,17.0,90/83,48/102,Non-Smoker,2,Yes,Asthma,Fever,Beta Blockers,77,0,Treatment Required
+P00687,Brittany Graham,86,Male,94.3,157,38.3,94/80,53/130,Smoker,6,Yes,Diabetes,Fatigue,Beta Blockers,82,0,Monitor
+P00688,James Huang,27,Male,62.8,195,16.5,93/89,57/154,Smoker,6,No,Asthma,Chest Pain,Beta Blockers,129,6,Healthy
+P00689,Anna Reeves,33,Male,77.3,154,32.6,113/81,53/151,Smoker,7,No,Heart Disease,Headache,Insulin,100,1,Healthy
+P00690,Amber Swanson,57,Female,82.5,156,33.9,94/64,47/137,Smoker,2,Yes,Diabetes,Fatigue,Antibiotics,180,0,Healthy
+P00691,Angel Bell,20,Female,61.3,173,20.5,113/73,40/132,Non-Smoker,4,Yes,Asthma,Fever,Insulin,194,5,Monitor
+P00692,Joshua Sutton,66,Female,60.0,150,26.7,130/66,36/125,Non-Smoker,0,Yes,Hypertension,Chest Pain,Antibiotics,78,10,Further Tests
+P00693,Kevin Dorsey,53,Male,106.3,169,37.2,109/74,45/186,Smoker,6,No,Diabetes,Headache,None,107,2,Healthy
+P00694,Jennifer Ward,90,Female,75.2,168,26.6,138/68,56/120,Non-Smoker,1,No,Hypertension,Fever,Antibiotics,193,7,Monitor
+P00695,Jessica Herman,50,Male,68.9,184,20.4,115/60,55/110,Non-Smoker,7,Yes,None,Chest Pain,Painkillers,101,0,Further Tests
+P00696,Alexis Walters,23,Male,85.9,196,22.4,101/80,60/103,Smoker,2,Yes,Diabetes,Fatigue,Antibiotics,120,4,Further Tests
+P00697,Ashley Miller,62,Male,55.2,165,20.3,130/64,51/173,Smoker,5,Yes,Asthma,Chest Pain,Beta Blockers,82,6,Monitor
+P00698,Robert Powers,37,Female,111.8,157,45.4,112/76,46/112,Smoker,5,No,Hypertension,Headache,None,185,0,Treatment Required
+P00699,Larry Zhang,27,Male,102.5,160,40.0,136/61,60/167,Smoker,5,Yes,Asthma,Fever,None,79,8,Further Tests
+P00700,Briana Klein,64,Female,93.8,156,38.5,112/63,48/102,Smoker,6,Yes,Hypertension,Headache,None,196,8,Monitor
+P00701,Kristen Small,70,Male,60.8,194,16.2,111/76,39/144,Smoker,0,No,Diabetes,Headache,Insulin,71,8,Healthy
+P00702,Elizabeth Morris,30,Female,94.2,165,34.6,112/72,44/188,Smoker,2,Yes,None,Fever,Painkillers,157,5,Treatment Required
+P00703,Brandi Johnson,47,Female,84.9,194,22.6,106/78,47/135,Non-Smoker,4,No,None,Chest Pain,Beta Blockers,168,4,Monitor
+P00704,Jennifer Rogers,40,Female,90.8,174,30.0,108/64,56/158,Non-Smoker,5,No,Heart Disease,Cough,None,78,6,Monitor
+P00705,Rachel Adams,86,Female,88.8,151,38.9,123/62,43/108,Smoker,1,No,None,Shortness of Breath,None,77,1,Monitor
+P00706,Matthew Williams,81,Female,66.1,161,25.5,95/73,58/166,Smoker,2,No,Hypertension,Chest Pain,Beta Blockers,73,10,Further Tests
+P00707,Jacqueline Flynn,31,Male,91.6,182,27.7,124/80,33/177,Smoker,7,Yes,Asthma,Fatigue,Beta Blockers,199,4,Treatment Required
+P00708,Tracy Mathis,68,Male,71.8,188,20.3,110/66,34/140,Smoker,6,Yes,Diabetes,Shortness of Breath,Beta Blockers,165,2,Healthy
+P00709,Brenda Taylor,77,Female,115.1,191,31.6,128/80,38/158,Non-Smoker,3,No,None,Chest Pain,Insulin,188,9,Monitor
+P00710,Derek Pierce,42,Male,56.7,165,20.8,118/79,35/118,Smoker,1,No,Diabetes,Fatigue,None,95,9,Monitor
+P00711,Traci Moore,69,Female,53.5,191,14.7,132/75,34/110,Non-Smoker,0,Yes,Hypertension,Shortness of Breath,None,170,1,Further Tests
+P00712,Christopher Schmidt,68,Male,100.1,167,35.9,122/73,37/151,Smoker,1,No,Asthma,Cough,Beta Blockers,136,7,Further Tests
+P00713,Michael Ramirez,90,Female,79.4,194,21.1,104/83,60/154,Non-Smoker,1,Yes,Diabetes,Fever,Beta Blockers,75,3,Healthy
+P00714,Mary Reyes,45,Female,112.1,194,29.8,132/70,58/175,Non-Smoker,5,Yes,Hypertension,Fatigue,None,86,0,Healthy
+P00715,Erin Schmidt,51,Female,60.8,157,24.7,135/86,46/167,Smoker,3,Yes,Hypertension,Cough,Painkillers,162,2,Monitor
+P00716,Brandy Woods,88,Female,118.4,186,34.2,129/86,47/170,Smoker,5,No,Heart Disease,Cough,Painkillers,89,8,Monitor
+P00717,Kimberly Mccall,39,Female,76.6,191,21.0,125/86,54/128,Smoker,7,No,Hypertension,Cough,None,182,9,Healthy
+P00718,Calvin Rollins,35,Male,102.8,176,33.2,100/73,39/109,Smoker,5,No,Diabetes,Cough,Painkillers,166,8,Monitor
+P00719,Cynthia Green,24,Male,94.1,164,35.0,112/64,36/172,Smoker,6,Yes,None,Fatigue,Beta Blockers,100,2,Further Tests
+P00720,Kurt Carter,39,Male,118.0,151,51.8,126/78,56/108,Smoker,4,No,Hypertension,Shortness of Breath,None,87,6,Healthy
+P00721,Darrell Anderson,34,Male,70.1,189,19.6,107/72,44/170,Non-Smoker,2,Yes,Heart Disease,Cough,Painkillers,183,7,Healthy
+P00722,Patrick Ali,62,Male,117.0,174,38.6,112/69,52/168,Non-Smoker,6,Yes,Hypertension,Shortness of Breath,Beta Blockers,196,3,Healthy
+P00723,Paul West,62,Male,88.3,162,33.6,108/84,54/109,Smoker,5,No,Diabetes,Cough,Insulin,128,8,Treatment Required
+P00724,Jesus King,30,Male,89.8,150,39.9,130/79,35/152,Smoker,4,Yes,Asthma,Fatigue,Antibiotics,72,6,Further Tests
+P00725,Wanda Gregory,65,Male,80.2,181,24.5,140/60,39/141,Non-Smoker,6,Yes,None,Shortness of Breath,Antibiotics,173,9,Monitor
+P00726,Matthew Moody,37,Female,50.9,191,14.0,100/87,47/176,Smoker,1,Yes,Heart Disease,Fatigue,None,165,4,Healthy
+P00727,Chelsea Thornton,66,Female,113.6,194,30.2,102/85,39/125,Non-Smoker,0,No,Diabetes,Headache,Insulin,74,0,Treatment Required
+P00728,Tammy Hebert,82,Male,112.9,164,42.0,97/61,56/118,Non-Smoker,1,No,Hypertension,Fever,Antibiotics,88,5,Treatment Required
+P00729,Stephanie Obrien,26,Female,58.6,194,15.6,131/81,44/174,Smoker,5,Yes,Diabetes,Fatigue,Beta Blockers,110,7,Treatment Required
+P00730,Richard Hernandez,48,Female,68.8,163,25.9,119/89,32/188,Smoker,3,No,Heart Disease,Fatigue,Insulin,142,8,Treatment Required
+P00731,Steven Carter,45,Female,93.0,173,31.1,97/65,34/131,Non-Smoker,1,Yes,Diabetes,Headache,Antibiotics,149,6,Further Tests
+P00732,Angela Shea,68,Female,60.9,150,27.1,119/84,35/141,Non-Smoker,1,Yes,Heart Disease,Fatigue,None,137,4,Further Tests
+P00733,Cesar Smith,20,Female,111.1,152,48.1,135/75,42/106,Smoker,7,Yes,Hypertension,Cough,Beta Blockers,200,3,Treatment Required
+P00734,Latasha Calderon,71,Female,58.2,176,18.8,107/60,31/182,Smoker,6,No,Heart Disease,Shortness of Breath,Insulin,154,8,Further Tests
+P00735,Renee Hamilton,27,Male,93.8,176,30.3,121/87,38/108,Smoker,7,Yes,Hypertension,Headache,None,113,9,Further Tests
+P00736,Keith Manning,59,Male,79.1,196,20.6,98/89,54/121,Non-Smoker,2,Yes,Hypertension,Fever,Insulin,148,1,Healthy
+P00737,Christine Adams,27,Female,91.8,188,26.0,94/83,46/142,Non-Smoker,4,No,Diabetes,Shortness of Breath,Insulin,140,5,Healthy
+P00738,Donna Preston,56,Male,93.0,198,23.7,116/86,48/135,Non-Smoker,3,Yes,Diabetes,Headache,Antibiotics,89,1,Healthy
+P00739,Sarah Nelson,41,Male,73.0,200,18.2,92/90,59/175,Smoker,2,Yes,Heart Disease,Cough,Insulin,166,6,Healthy
+P00740,Thomas Mcclure,83,Female,112.4,152,48.6,101/70,47/164,Smoker,3,Yes,Asthma,Fatigue,Painkillers,117,6,Monitor
+P00741,Isabella Reyes,75,Male,115.6,165,42.5,123/75,36/161,Smoker,6,No,Diabetes,Fatigue,Beta Blockers,117,4,Monitor
+P00742,John Garcia,48,Female,68.3,167,24.5,110/67,50/144,Smoker,0,No,Heart Disease,Chest Pain,None,118,4,Further Tests
+P00743,Adam Rodgers,56,Male,105.6,172,35.7,120/77,45/187,Smoker,2,Yes,Asthma,Shortness of Breath,Painkillers,165,0,Healthy
+P00744,Charles Warren,32,Male,113.5,181,34.6,135/76,52/131,Non-Smoker,3,Yes,Diabetes,Cough,Painkillers,96,10,Monitor
+P00745,Shelby Boyle,81,Male,113.8,176,36.7,99/84,55/182,Non-Smoker,1,No,Diabetes,Chest Pain,Antibiotics,151,2,Further Tests
+P00746,Stephanie Hartman,90,Female,116.6,154,49.2,110/70,58/120,Non-Smoker,0,No,Diabetes,Headache,Insulin,113,3,Monitor
+P00747,Michael Mendez,48,Male,93.1,172,31.5,136/69,55/168,Non-Smoker,4,Yes,Diabetes,Cough,Antibiotics,144,2,Monitor
+P00748,Peter Dyer,86,Male,71.8,182,21.7,90/65,33/181,Smoker,1,Yes,Hypertension,Cough,Antibiotics,123,8,Monitor
+P00749,Shannon Smith,70,Female,83.5,200,20.9,120/68,59/149,Smoker,3,Yes,Diabetes,Chest Pain,Beta Blockers,190,10,Further Tests
+P00750,Tyrone Miller,48,Female,70.6,157,28.6,140/68,32/181,Smoker,7,No,Heart Disease,Chest Pain,Antibiotics,135,7,Healthy
+P00751,Michelle Steele,60,Female,59.3,167,21.3,95/60,33/135,Smoker,5,No,Heart Disease,Cough,Beta Blockers,78,1,Monitor
+P00752,Richard Simpson,63,Male,95.3,166,34.6,133/70,50/168,Non-Smoker,7,No,Diabetes,Fatigue,Antibiotics,146,5,Healthy
+P00753,Jason Mccullough,87,Female,97.6,197,25.1,121/90,37/165,Smoker,1,Yes,Heart Disease,Cough,None,134,9,Healthy
+P00754,Mason Wiggins,55,Male,101.4,159,40.1,133/74,35/108,Smoker,7,No,Asthma,Fatigue,Beta Blockers,168,3,Further Tests
+P00755,Christopher Oliver,88,Female,96.3,198,24.6,105/81,30/111,Smoker,1,Yes,Asthma,Chest Pain,None,142,9,Further Tests
+P00756,Kevin Johnson,86,Male,51.1,195,13.4,91/75,38/154,Smoker,5,Yes,Hypertension,Fatigue,Insulin,173,0,Treatment Required
+P00757,Michael Bullock,21,Female,57.4,154,24.2,101/70,42/134,Smoker,7,No,Hypertension,Cough,Insulin,199,10,Monitor
+P00758,Alan Sandoval,82,Female,112.4,189,31.5,125/85,36/183,Smoker,1,No,Diabetes,Fatigue,Painkillers,107,6,Further Tests
+P00759,Michelle Horne,69,Male,79.2,183,23.6,98/69,34/172,Non-Smoker,0,No,Hypertension,Shortness of Breath,None,186,0,Further Tests
+P00760,Elizabeth Griffith,22,Female,56.1,196,14.6,112/84,47/165,Non-Smoker,7,No,None,Cough,None,110,3,Treatment Required
+P00761,Erin Gilbert,22,Female,68.6,196,17.9,140/74,55/156,Non-Smoker,3,Yes,Asthma,Chest Pain,Painkillers,116,4,Treatment Required
+P00762,Raymond Marquez,74,Female,78.9,177,25.2,134/90,30/178,Smoker,4,Yes,Hypertension,Headache,Insulin,182,1,Monitor
+P00763,Elizabeth Watson,63,Male,96.5,155,40.2,125/66,37/138,Smoker,6,Yes,None,Cough,Insulin,155,1,Treatment Required
+P00764,Brian Flores,49,Female,81.3,180,25.1,130/72,39/145,Non-Smoker,3,Yes,None,Chest Pain,Painkillers,93,6,Healthy
+P00765,Timothy Edwards,36,Female,92.3,177,29.5,91/86,59/147,Non-Smoker,0,No,Heart Disease,Shortness of Breath,Antibiotics,115,8,Healthy
+P00766,Jared Williams,28,Male,65.4,151,28.7,135/64,56/156,Smoker,1,Yes,Diabetes,Chest Pain,Painkillers,176,1,Healthy
+P00767,Michele Baker,87,Male,88.4,168,31.3,134/62,42/133,Non-Smoker,2,Yes,None,Shortness of Breath,Painkillers,119,4,Treatment Required
+P00768,Matthew Bell,84,Female,111.5,153,47.6,125/90,50/125,Non-Smoker,4,Yes,Diabetes,Fever,Antibiotics,197,1,Further Tests
+P00769,Amy Hernandez,83,Female,108.9,189,30.5,124/79,58/122,Smoker,6,Yes,Hypertension,Fatigue,Antibiotics,120,3,Healthy
+P00770,Andrea Christian,22,Male,69.5,195,18.3,115/78,46/178,Non-Smoker,3,No,Asthma,Fatigue,Painkillers,121,8,Monitor
+P00771,Chelsea Stone,74,Male,105.4,195,27.7,92/82,54/132,Smoker,6,No,None,Cough,Beta Blockers,151,1,Healthy
+P00772,Mary Miller,39,Male,53.3,167,19.1,94/61,60/185,Non-Smoker,5,No,Diabetes,Shortness of Breath,Beta Blockers,127,3,Treatment Required
+P00773,Douglas Hansen,44,Male,92.6,156,38.1,106/88,46/190,Smoker,1,Yes,Diabetes,Shortness of Breath,None,147,2,Healthy
+P00774,Brian Mckinney,74,Male,104.9,191,28.8,120/72,56/103,Non-Smoker,4,Yes,Diabetes,Fatigue,None,137,5,Monitor
+P00775,Katherine Jones,23,Male,83.5,188,23.6,102/89,59/105,Smoker,4,No,Heart Disease,Fatigue,None,99,2,Monitor
+P00776,Tina Cook,57,Female,80.8,175,26.4,119/87,30/130,Non-Smoker,5,Yes,Heart Disease,Shortness of Breath,Insulin,124,2,Treatment Required
+P00777,Dawn Carpenter,80,Male,99.3,193,26.7,128/74,59/134,Non-Smoker,3,No,None,Headache,Beta Blockers,104,9,Healthy
+P00778,Tony Jones,73,Female,96.4,151,42.3,112/78,53/110,Non-Smoker,1,No,Hypertension,Chest Pain,Beta Blockers,160,7,Healthy
+P00779,Laurie Bowers,71,Male,56.2,198,14.3,132/63,51/170,Non-Smoker,3,No,Hypertension,Shortness of Breath,Painkillers,191,5,Healthy
+P00780,Ronald Bailey,43,Male,70.1,173,23.4,122/75,55/174,Smoker,6,No,Heart Disease,Chest Pain,Antibiotics,105,2,Further Tests
+P00781,Bridget Romero,86,Male,88.4,196,23.0,94/68,57/178,Non-Smoker,7,No,Diabetes,Chest Pain,Antibiotics,110,5,Further Tests
+P00782,Bryan Maddox,67,Female,50.7,181,15.5,134/90,31/155,Non-Smoker,6,No,None,Headache,None,116,0,Treatment Required
+P00783,Nicole Lane,20,Male,94.7,191,26.0,96/68,31/131,Non-Smoker,3,No,Diabetes,Fever,None,82,2,Monitor
+P00784,Jonathan Nguyen,30,Female,52.4,165,19.2,117/72,47/136,Smoker,0,Yes,Heart Disease,Fever,None,159,7,Monitor
+P00785,Emily Newman,78,Female,54.7,184,16.2,117/68,43/167,Non-Smoker,6,No,Heart Disease,Shortness of Breath,Antibiotics,81,5,Healthy
+P00786,Zachary Howell,50,Female,116.1,169,40.6,113/79,34/153,Non-Smoker,5,Yes,Asthma,Headache,Painkillers,193,4,Further Tests
+P00787,Cory Hunter,89,Female,113.4,181,34.6,95/80,49/185,Non-Smoker,6,Yes,None,Cough,Painkillers,89,2,Monitor
+P00788,Lisa Meyer,20,Male,65.6,153,28.0,110/73,55/166,Non-Smoker,4,Yes,None,Shortness of Breath,Antibiotics,127,7,Monitor
+P00789,Candice Rosales,73,Male,67.1,158,26.9,135/78,53/163,Non-Smoker,0,Yes,Hypertension,Shortness of Breath,None,81,10,Further Tests
+P00790,Sean Butler,31,Male,101.1,193,27.1,103/78,60/113,Smoker,7,No,Heart Disease,Fever,Antibiotics,188,10,Healthy
+P00791,Christopher Sanchez,29,Male,82.4,155,34.3,132/72,47/173,Non-Smoker,4,No,Hypertension,Fever,Beta Blockers,163,9,Monitor
+P00792,Patrick Neal,78,Male,91.2,192,24.7,119/80,36/123,Non-Smoker,6,Yes,Heart Disease,Fever,Insulin,155,0,Treatment Required
+P00793,Ann Hansen,78,Female,101.9,151,44.7,131/66,38/128,Non-Smoker,7,Yes,None,Fatigue,None,176,0,Treatment Required
+P00794,Brandon Wright,40,Male,88.4,167,31.7,140/73,50/189,Smoker,6,No,Asthma,Chest Pain,Painkillers,98,4,Monitor
+P00795,Angela Beasley,37,Female,99.1,195,26.1,128/65,57/145,Non-Smoker,5,Yes,Heart Disease,Fever,Painkillers,133,0,Further Tests
+P00796,Natalie Dixon,85,Male,91.4,199,23.1,103/79,48/166,Smoker,7,Yes,Heart Disease,Fever,Antibiotics,147,10,Further Tests
+P00797,Derek Ponce,49,Female,59.6,200,14.9,109/77,44/123,Non-Smoker,3,Yes,None,Fever,Insulin,166,4,Monitor
+P00798,Traci Lewis,60,Female,77.1,187,22.0,133/89,53/150,Smoker,2,Yes,None,Fever,Painkillers,99,6,Monitor
+P00799,Shannon Juarez,29,Female,114.5,180,35.3,136/75,33/105,Non-Smoker,5,Yes,None,Headache,Antibiotics,166,1,Monitor
+P00800,Andrew Peterson,27,Female,87.7,182,26.5,91/68,46/159,Smoker,4,Yes,Diabetes,Shortness of Breath,Painkillers,163,5,Treatment Required
+P00801,Karen Sanchez,82,Male,111.5,186,32.2,129/66,32/160,Smoker,5,Yes,Diabetes,Chest Pain,Beta Blockers,170,5,Treatment Required
+P00802,Alisha Beard,60,Male,61.8,150,27.5,107/66,51/113,Non-Smoker,3,No,Diabetes,Fatigue,None,97,0,Treatment Required
+P00803,Mitchell Yates,33,Female,99.2,162,37.8,127/82,52/173,Smoker,1,No,Hypertension,Chest Pain,Insulin,160,10,Monitor
+P00804,Kristin Kim,57,Male,97.4,155,40.5,135/75,56/126,Non-Smoker,7,Yes,Asthma,Chest Pain,Insulin,87,1,Further Tests
+P00805,Cindy Alexander,83,Male,92.3,184,27.3,119/79,55/153,Smoker,7,No,None,Shortness of Breath,None,177,1,Further Tests
+P00806,Michael Potts,43,Female,73.6,187,21.0,111/73,42/122,Smoker,5,Yes,Asthma,Headache,Insulin,169,3,Healthy
+P00807,Elijah Jackson,63,Male,117.7,191,32.3,132/66,35/120,Smoker,0,Yes,Heart Disease,Cough,Insulin,177,2,Treatment Required
+P00808,Jason Brooks,59,Female,59.4,173,19.8,116/80,56/110,Smoker,2,Yes,Asthma,Headache,Antibiotics,80,7,Monitor
+P00809,David Martin,52,Female,63.0,176,20.3,115/82,35/184,Non-Smoker,4,Yes,None,Headache,None,184,0,Further Tests
+P00810,Bruce Marquez,83,Male,72.4,160,28.3,129/69,60/172,Non-Smoker,4,No,Hypertension,Headache,Antibiotics,187,3,Monitor
+P00811,Karen Cooper,85,Male,65.0,187,18.6,125/87,45/138,Non-Smoker,2,No,Diabetes,Fever,Antibiotics,148,6,Healthy
+P00812,Jason Mitchell,90,Male,53.0,184,15.7,96/88,54/167,Non-Smoker,2,Yes,Hypertension,Fatigue,None,130,9,Further Tests
+P00813,Beverly Brown,87,Male,79.7,190,22.1,103/75,39/126,Non-Smoker,7,Yes,Asthma,Headache,Antibiotics,184,2,Further Tests
+P00814,Lori Ross,36,Female,84.0,168,29.8,90/74,32/114,Smoker,3,No,Asthma,Fatigue,None,187,2,Treatment Required
+P00815,Joshua Davis,70,Male,118.2,186,34.2,136/79,32/190,Smoker,5,Yes,Heart Disease,Chest Pain,Insulin,105,5,Treatment Required
+P00816,Carlos Ramirez,38,Female,117.8,155,49.0,109/73,30/135,Smoker,1,No,Heart Disease,Shortness of Breath,Painkillers,86,3,Monitor
+P00817,Daisy Morgan,56,Female,71.3,160,27.9,110/82,43/133,Smoker,0,No,Heart Disease,Headache,Painkillers,161,8,Further Tests
+P00818,Larry Medina,22,Female,51.5,157,20.9,136/83,34/145,Non-Smoker,3,Yes,Heart Disease,Fatigue,None,166,7,Further Tests
+P00819,Michael Small,20,Male,96.6,198,24.6,118/75,32/145,Non-Smoker,6,No,Diabetes,Fatigue,None,89,2,Treatment Required
+P00820,Joseph Rowe,53,Male,91.9,199,23.2,127/81,55/146,Non-Smoker,0,Yes,Diabetes,Headache,Painkillers,192,5,Further Tests
+P00821,Sara Meyer,69,Male,67.2,175,21.9,119/86,37/156,Smoker,3,Yes,Asthma,Fever,Antibiotics,189,9,Monitor
+P00822,Kyle Strickland,49,Female,54.9,190,15.2,134/71,36/146,Non-Smoker,4,No,Heart Disease,Cough,None,151,8,Treatment Required
+P00823,Patrick Hall,42,Female,79.3,183,23.7,132/67,54/119,Non-Smoker,3,No,Diabetes,Headache,Painkillers,89,4,Monitor
+P00824,Catherine King,50,Female,91.5,168,32.4,140/68,49/152,Non-Smoker,1,Yes,Hypertension,Shortness of Breath,Beta Blockers,102,3,Treatment Required
+P00825,Jesse Curtis,41,Female,117.6,185,34.4,95/63,42/135,Smoker,0,No,None,Chest Pain,None,157,8,Healthy
+P00826,Melissa Arnold,59,Male,81.0,183,24.2,100/76,41/125,Smoker,1,Yes,Hypertension,Fever,Painkillers,157,8,Monitor
+P00827,Christopher Gonzalez,39,Male,102.3,182,30.9,94/86,53/139,Non-Smoker,4,Yes,Diabetes,Shortness of Breath,None,197,0,Healthy
+P00828,Jared Taylor,58,Male,50.9,151,22.3,90/66,30/109,Non-Smoker,1,Yes,None,Fever,Insulin,105,10,Treatment Required
+P00829,Shannon Mcdonald,69,Male,95.8,182,28.9,121/72,41/118,Non-Smoker,1,No,Heart Disease,Fever,None,163,1,Healthy
+P00830,Dawn Gonzalez,81,Female,71.5,165,26.3,91/65,49/136,Smoker,6,Yes,Asthma,Headache,Antibiotics,184,9,Healthy
+P00831,Jennifer Scott,31,Female,57.8,179,18.0,92/66,39/116,Non-Smoker,0,No,None,Fever,None,189,9,Monitor
+P00832,Laura Stafford,43,Female,117.0,180,36.1,93/77,59/131,Smoker,4,No,Heart Disease,Fatigue,Painkillers,197,10,Treatment Required
+P00833,Jeffrey Palmer,63,Female,59.4,156,24.4,103/73,55/156,Smoker,5,No,None,Fatigue,Beta Blockers,130,4,Monitor
+P00834,Jerome Potter,38,Male,56.0,172,18.9,95/78,55/122,Non-Smoker,7,No,Heart Disease,Headache,Beta Blockers,72,7,Monitor
+P00835,Rebekah Thomas,27,Male,78.0,172,26.4,122/63,46/166,Non-Smoker,7,Yes,Heart Disease,Shortness of Breath,Insulin,141,0,Monitor
+P00836,Steven Bennett,87,Female,96.4,152,41.7,135/75,34/161,Smoker,0,Yes,None,Shortness of Breath,Antibiotics,164,6,Treatment Required
+P00837,Melissa Hayes,24,Male,110.5,198,28.2,129/61,37/138,Smoker,0,Yes,Diabetes,Shortness of Breath,None,157,0,Further Tests
+P00838,John Perez,48,Male,103.3,169,36.2,127/84,52/169,Non-Smoker,5,No,Heart Disease,Fatigue,Beta Blockers,144,6,Healthy
+P00839,Alan Wilkinson,18,Female,77.5,162,29.5,136/65,56/107,Non-Smoker,2,No,None,Cough,Antibiotics,145,2,Monitor
+P00840,Joshua Davis,42,Female,67.0,195,17.6,104/71,46/111,Non-Smoker,7,No,Diabetes,Cough,Antibiotics,181,9,Healthy
+P00841,Brandon Ellis,39,Female,110.1,176,35.5,90/84,40/113,Smoker,1,No,None,Headache,Beta Blockers,89,5,Treatment Required
+P00842,Shane Duffy,26,Male,102.2,177,32.6,138/61,37/128,Smoker,1,Yes,Diabetes,Shortness of Breath,Insulin,120,10,Monitor
+P00843,Stacy Zimmerman,82,Female,68.2,151,29.9,106/80,38/131,Smoker,1,Yes,Heart Disease,Fever,Painkillers,122,0,Healthy
+P00844,Nicole Delgado,71,Female,117.2,165,43.0,136/83,38/161,Smoker,6,Yes,None,Fever,Painkillers,80,4,Further Tests
+P00845,Courtney Ward,77,Male,79.2,180,24.4,104/70,42/110,Smoker,3,Yes,Asthma,Fever,None,188,5,Healthy
+P00846,John James,25,Female,88.0,189,24.6,124/65,43/159,Non-Smoker,3,Yes,None,Chest Pain,None,156,0,Healthy
+P00847,Nathan Watson,82,Female,96.1,179,30.0,130/88,58/112,Non-Smoker,2,Yes,Diabetes,Fever,None,144,6,Healthy
+P00848,Robert Roberts,44,Male,77.5,192,21.0,99/71,38/171,Smoker,3,No,None,Cough,None,77,9,Healthy
+P00849,Daniel Wood,50,Male,86.6,153,37.0,106/68,51/189,Non-Smoker,5,Yes,Hypertension,Shortness of Breath,Painkillers,120,1,Treatment Required
+P00850,Ariana Jones,86,Female,108.4,168,38.4,134/88,44/151,Non-Smoker,3,No,Asthma,Fatigue,Beta Blockers,140,5,Healthy
+P00851,Dylan Contreras,51,Male,52.9,154,22.3,135/63,36/107,Non-Smoker,4,Yes,None,Cough,Antibiotics,70,2,Treatment Required
+P00852,Dustin Jones,25,Male,108.6,150,48.3,96/74,54/177,Smoker,5,Yes,Diabetes,Cough,Antibiotics,75,3,Further Tests
+P00853,Lindsey Coleman,68,Male,66.6,165,24.5,95/87,44/126,Non-Smoker,2,Yes,Asthma,Shortness of Breath,Insulin,87,2,Further Tests
+P00854,Claire Blair,54,Male,70.3,175,23.0,111/64,48/181,Smoker,7,Yes,Asthma,Headache,None,128,10,Treatment Required
+P00855,Lisa Beard,57,Male,53.6,162,20.4,90/78,51/103,Non-Smoker,0,No,Hypertension,Headache,Beta Blockers,88,3,Healthy
+P00856,Ryan James,29,Male,54.2,165,19.9,92/87,39/145,Non-Smoker,5,Yes,Hypertension,Cough,Antibiotics,85,5,Further Tests
+P00857,Kim Diaz,31,Male,99.9,154,42.1,116/85,57/177,Smoker,7,Yes,Hypertension,Headache,Beta Blockers,138,5,Healthy
+P00858,John Peters DVM,53,Female,52.1,187,14.9,136/68,49/155,Smoker,0,Yes,Asthma,Shortness of Breath,Painkillers,130,9,Further Tests
+P00859,Peggy Evans,61,Male,60.1,171,20.6,111/70,59/188,Smoker,4,Yes,Hypertension,Cough,None,93,9,Further Tests
+P00860,Steven Johnson,76,Male,96.0,168,34.0,116/88,49/163,Smoker,1,Yes,Hypertension,Chest Pain,None,86,3,Healthy
+P00861,Kevin Moore,47,Female,105.3,155,43.8,100/78,39/109,Smoker,6,No,Asthma,Headache,None,131,5,Further Tests
+P00862,Bruce Lynch,89,Male,96.3,184,28.4,135/80,50/159,Smoker,2,Yes,Diabetes,Cough,Insulin,126,10,Treatment Required
+P00863,Nicholas Mitchell,87,Female,118.8,182,35.9,118/79,37/155,Non-Smoker,3,Yes,Asthma,Fever,Antibiotics,185,7,Further Tests
+P00864,Donna Singh,36,Male,99.6,151,43.7,116/82,35/115,Smoker,7,Yes,Asthma,Shortness of Breath,None,170,10,Treatment Required
+P00865,Elizabeth Harrison,19,Female,54.1,164,20.1,122/65,40/178,Smoker,2,Yes,Heart Disease,Cough,Insulin,172,4,Monitor
+P00866,Nathaniel Johnson,58,Female,85.3,180,26.3,105/79,37/167,Non-Smoker,0,No,None,Chest Pain,Painkillers,140,8,Treatment Required
+P00867,Stephen Hernandez,19,Male,101.5,179,31.7,96/85,56/122,Non-Smoker,0,No,Heart Disease,Cough,Antibiotics,94,4,Monitor
+P00868,Jeremy Ray,65,Male,67.6,193,18.1,132/70,45/148,Non-Smoker,0,Yes,Diabetes,Cough,None,118,6,Monitor
+P00869,Jessica Hernandez,36,Female,57.4,186,16.6,102/67,49/176,Smoker,2,Yes,Diabetes,Fatigue,Beta Blockers,139,0,Healthy
+P00870,Ricky Walter,44,Male,100.9,194,26.8,132/84,43/132,Smoker,5,Yes,Heart Disease,Headache,Beta Blockers,162,8,Treatment Required
+P00871,Crystal Scott,85,Male,58.6,199,14.8,113/67,42/104,Non-Smoker,4,Yes,Diabetes,Fatigue,Painkillers,72,9,Monitor
+P00872,Thomas Bonilla,64,Female,117.7,192,31.9,133/72,47/116,Smoker,1,Yes,Heart Disease,Fatigue,Beta Blockers,177,1,Monitor
+P00873,Jerry Allen,54,Male,119.3,152,51.6,97/76,51/164,Non-Smoker,3,Yes,Hypertension,Fatigue,Beta Blockers,133,0,Monitor
+P00874,Hannah Ross,32,Female,103.7,189,29.0,100/64,45/147,Non-Smoker,0,Yes,Hypertension,Headache,None,116,7,Monitor
+P00875,Zachary Werner,18,Male,75.5,195,19.9,113/72,48/157,Non-Smoker,1,Yes,Diabetes,Chest Pain,Painkillers,120,9,Healthy
+P00876,Kathleen Mann,62,Female,75.1,186,21.7,135/70,45/101,Non-Smoker,4,Yes,None,Shortness of Breath,None,165,2,Healthy
+P00877,Anthony Hernandez,39,Male,60.0,153,25.6,90/61,56/136,Smoker,5,No,None,Fever,Antibiotics,131,5,Healthy
+P00878,Sarah Vargas,35,Female,115.3,158,46.2,129/87,54/110,Smoker,3,No,None,Cough,Insulin,144,0,Healthy
+P00879,Timothy Johnson,59,Female,108.4,161,41.8,108/83,42/187,Non-Smoker,5,Yes,None,Fatigue,Antibiotics,165,2,Monitor
+P00880,Nicole Stevenson,19,Female,67.5,194,17.9,120/84,38/139,Smoker,1,Yes,Asthma,Fatigue,Insulin,98,4,Monitor
+P00881,Lindsay Boone,31,Male,52.5,185,15.3,117/72,60/133,Non-Smoker,6,Yes,Asthma,Fatigue,Painkillers,114,6,Further Tests
+P00882,Thomas Howard,81,Male,104.6,193,28.1,104/66,51/190,Smoker,0,No,Hypertension,Cough,Painkillers,99,4,Further Tests
+P00883,Carlos Patton,31,Female,116.6,153,49.8,128/71,39/188,Non-Smoker,4,Yes,Hypertension,Chest Pain,Beta Blockers,133,3,Treatment Required
+P00884,Robert Moses,51,Female,84.9,177,27.1,99/73,35/169,Smoker,6,No,Diabetes,Fever,Painkillers,179,7,Healthy
+P00885,Carolyn Olson,23,Male,103.7,185,30.3,90/70,40/134,Non-Smoker,3,Yes,None,Fever,Painkillers,157,4,Treatment Required
+P00886,Timothy Levine,87,Male,115.7,183,34.5,126/85,56/122,Non-Smoker,7,No,Heart Disease,Headache,Painkillers,178,9,Monitor
+P00887,Justin Sanchez,81,Female,97.2,171,33.2,138/82,40/167,Non-Smoker,7,Yes,Asthma,Chest Pain,Insulin,156,8,Monitor
+P00888,Jennifer Malone,65,Female,87.2,176,28.2,128/63,36/100,Non-Smoker,5,Yes,Diabetes,Headache,None,196,2,Treatment Required
+P00889,Robert Watson,52,Female,92.5,176,29.9,92/63,43/105,Non-Smoker,6,Yes,Hypertension,Fever,Insulin,164,3,Monitor
+P00890,Zoe Gordon,61,Female,80.7,166,29.3,95/88,58/173,Non-Smoker,2,Yes,Hypertension,Chest Pain,Antibiotics,149,0,Healthy
+P00891,Casey Johnson,78,Male,100.2,160,39.1,106/86,55/172,Smoker,6,No,Hypertension,Fatigue,Painkillers,99,4,Monitor
+P00892,Jennifer Freeman,27,Male,87.9,190,24.3,124/63,33/105,Non-Smoker,5,No,Heart Disease,Cough,Insulin,134,1,Further Tests
+P00893,Scott Carroll,78,Female,85.1,169,29.8,126/70,47/184,Smoker,2,No,Asthma,Cough,Insulin,130,3,Further Tests
+P00894,Vicki Sloan,54,Female,67.3,185,19.7,102/70,46/158,Non-Smoker,0,Yes,Diabetes,Cough,Beta Blockers,73,2,Monitor
+P00895,Kathleen Fernandez,30,Female,119.6,196,31.1,101/65,39/146,Non-Smoker,6,Yes,Hypertension,Shortness of Breath,Painkillers,199,8,Monitor
+P00896,Melissa Kim,60,Male,91.7,196,23.9,118/61,44/158,Non-Smoker,0,No,None,Cough,Painkillers,179,6,Further Tests
+P00897,Jerome Escobar,67,Male,63.1,194,16.8,129/84,42/106,Smoker,6,No,None,Cough,Antibiotics,139,1,Monitor
+P00898,James Pena,81,Female,94.9,186,27.4,99/61,41/108,Smoker,6,Yes,Heart Disease,Chest Pain,Painkillers,137,9,Treatment Required
+P00899,Judy Ross,47,Female,112.7,170,39.0,97/80,47/103,Smoker,1,Yes,Asthma,Shortness of Breath,None,115,8,Healthy
+P00900,Ariel Murphy,30,Male,76.0,189,21.3,138/68,54/152,Non-Smoker,6,No,Diabetes,Headache,Insulin,74,9,Monitor
+P00901,Virginia Hall,80,Male,113.6,170,39.3,105/60,50/105,Non-Smoker,1,Yes,None,Fever,Antibiotics,168,3,Monitor
+P00902,Johnny Pollard,57,Male,79.4,174,26.2,111/89,32/113,Non-Smoker,1,No,None,Fever,Painkillers,182,3,Further Tests
+P00903,Brian Anderson,24,Male,92.6,174,30.6,92/66,50/114,Non-Smoker,3,No,Heart Disease,Shortness of Breath,Antibiotics,147,4,Further Tests
+P00904,Sarah Dean,84,Female,52.9,182,16.0,116/75,44/143,Non-Smoker,7,No,None,Chest Pain,None,161,3,Healthy
+P00905,Henry Grant,59,Male,79.0,192,21.4,103/74,54/125,Non-Smoker,1,Yes,None,Fever,Beta Blockers,123,4,Healthy
+P00906,Denise Oneill,32,Male,86.4,183,25.8,103/73,43/117,Non-Smoker,3,Yes,Diabetes,Shortness of Breath,Beta Blockers,169,4,Treatment Required
+P00907,Julie Bruce,83,Male,79.0,184,23.3,140/89,48/134,Smoker,2,No,Asthma,Chest Pain,Insulin,115,6,Treatment Required
+P00908,Ryan Edwards,63,Female,79.2,185,23.1,131/80,42/130,Non-Smoker,2,No,Hypertension,Headache,Painkillers,198,9,Treatment Required
+P00909,Tina Williams MD,44,Male,58.0,196,15.1,91/61,59/171,Non-Smoker,6,Yes,Heart Disease,Fever,None,152,6,Further Tests
+P00910,Karen Gay,28,Female,102.9,183,30.7,100/90,41/116,Smoker,7,No,Diabetes,Fatigue,Antibiotics,121,4,Further Tests
+P00911,Pamela Floyd,62,Male,84.1,160,32.9,125/63,41/161,Smoker,0,Yes,Hypertension,Chest Pain,Beta Blockers,173,3,Further Tests
+P00912,Nicholas Lara,19,Female,58.2,159,23.0,101/68,59/110,Smoker,2,Yes,Diabetes,Headache,Antibiotics,185,8,Further Tests
+P00913,Daniel Combs,33,Male,60.7,152,26.3,96/70,47/157,Non-Smoker,0,Yes,Asthma,Cough,Insulin,100,1,Treatment Required
+P00914,Katherine Robertson,21,Male,69.9,192,19.0,111/86,42/125,Non-Smoker,5,No,None,Headache,Beta Blockers,135,0,Healthy
+P00915,Katherine Holland,70,Female,88.3,180,27.3,97/88,34/183,Non-Smoker,6,Yes,Hypertension,Fatigue,Beta Blockers,196,5,Further Tests
+P00916,Sarah Cohen,70,Female,69.4,187,19.8,139/89,41/174,Smoker,4,No,Diabetes,Fatigue,Antibiotics,77,0,Monitor
+P00917,Mary Sherman,48,Male,61.0,160,23.8,100/71,36/140,Smoker,1,Yes,Diabetes,Fever,Painkillers,89,9,Monitor
+P00918,Edwin Morris,77,Female,89.3,150,39.7,140/85,40/162,Non-Smoker,2,Yes,Diabetes,Shortness of Breath,None,149,9,Treatment Required
+P00919,Amber Silva,80,Female,93.9,157,38.1,111/69,60/174,Smoker,0,Yes,Asthma,Cough,Beta Blockers,142,8,Healthy
+P00920,Jennifer Burke,61,Male,54.7,174,18.1,96/60,49/174,Non-Smoker,7,No,Asthma,Fever,Antibiotics,173,0,Treatment Required
+P00921,Sherry Nash,22,Female,113.7,171,38.9,116/75,41/154,Non-Smoker,4,Yes,Hypertension,Chest Pain,Beta Blockers,170,2,Monitor
+P00922,Manuel Moreno,47,Female,101.4,196,26.4,111/83,46/114,Smoker,6,Yes,Asthma,Cough,Insulin,107,8,Treatment Required
+P00923,Ricardo Short,43,Female,99.7,192,27.0,119/89,43/178,Smoker,4,Yes,Asthma,Shortness of Breath,Insulin,118,0,Healthy
+P00924,Ashley Singh,48,Male,66.5,200,16.6,118/66,46/175,Smoker,4,Yes,None,Cough,Antibiotics,160,9,Further Tests
+P00925,Jonathan Graham,20,Male,90.8,185,26.5,98/89,58/143,Smoker,7,Yes,None,Headache,Antibiotics,181,1,Treatment Required
+P00926,Stephanie Davis,21,Female,88.0,152,38.1,109/73,57/178,Smoker,1,No,Hypertension,Fatigue,Insulin,196,6,Further Tests
+P00927,Michael Stein,44,Female,55.9,161,21.6,114/66,53/171,Smoker,5,No,Asthma,Fatigue,Insulin,176,7,Healthy
+P00928,Jennifer Wiley,19,Female,54.9,164,20.4,104/79,37/124,Non-Smoker,4,Yes,None,Chest Pain,None,196,0,Treatment Required
+P00929,Richard Wilkins,65,Female,81.7,194,21.7,102/86,37/148,Smoker,7,Yes,Asthma,Shortness of Breath,None,167,4,Healthy
+P00930,Jesse Thomas,28,Female,54.0,152,23.4,100/85,41/154,Smoker,1,No,Diabetes,Shortness of Breath,Insulin,76,10,Monitor
+P00931,Ronald Morris,19,Female,104.3,162,39.7,114/66,30/150,Non-Smoker,1,No,Hypertension,Fatigue,Antibiotics,182,7,Healthy
+P00932,James Walsh,67,Male,115.4,150,51.3,131/75,44/163,Non-Smoker,1,No,None,Chest Pain,None,200,2,Healthy
+P00933,John Patton,73,Male,88.6,196,23.1,112/65,32/110,Smoker,6,Yes,Diabetes,Chest Pain,Beta Blockers,108,7,Further Tests
+P00934,Ryan Gomez MD,42,Male,64.1,180,19.8,101/90,52/170,Smoker,0,Yes,Heart Disease,Cough,Antibiotics,168,6,Healthy
+P00935,Jonathan Wright,63,Male,95.8,167,34.4,106/76,41/149,Smoker,6,Yes,Diabetes,Shortness of Breath,None,90,0,Monitor
+P00936,Nicole Davis,76,Male,108.0,158,43.3,108/68,57/158,Smoker,2,Yes,Diabetes,Cough,None,110,3,Monitor
+P00937,Anna Harris,64,Male,83.6,198,21.3,108/88,48/160,Non-Smoker,4,No,Heart Disease,Shortness of Breath,Beta Blockers,76,10,Healthy
+P00938,Brandon Larson,75,Female,102.5,188,29.0,127/64,54/166,Smoker,2,Yes,Asthma,Shortness of Breath,Insulin,158,4,Further Tests
+P00939,Tracey Farrell,22,Male,62.1,165,22.8,136/79,31/100,Smoker,7,Yes,Asthma,Fatigue,Painkillers,101,0,Healthy
+P00940,Brandon Miller,53,Female,56.4,165,20.7,91/81,49/181,Smoker,2,No,Asthma,Fever,Beta Blockers,105,4,Further Tests
+P00941,Tiffany Ortiz,41,Male,109.0,183,32.5,112/89,59/180,Non-Smoker,0,No,Asthma,Fatigue,Painkillers,141,4,Healthy
+P00942,Shannon Owen,65,Female,98.1,193,26.3,93/74,54/123,Non-Smoker,6,Yes,None,Chest Pain,None,107,5,Monitor
+P00943,Daniel Garcia,37,Male,69.6,176,22.5,94/60,30/169,Non-Smoker,5,No,Diabetes,Fever,None,198,2,Healthy
+P00944,David Leon,18,Female,72.3,197,18.6,126/63,54/105,Non-Smoker,7,Yes,Diabetes,Headache,Antibiotics,174,10,Monitor
+P00945,Brian Clark,36,Female,107.3,154,45.2,134/64,44/133,Smoker,2,Yes,Heart Disease,Fatigue,None,170,0,Treatment Required
+P00946,Jesse Griffin,76,Male,114.1,193,30.6,114/75,60/149,Smoker,0,Yes,Hypertension,Headache,Antibiotics,189,3,Monitor
+P00947,Jeanette Hernandez,32,Female,86.4,190,23.9,117/63,59/136,Smoker,0,Yes,Asthma,Shortness of Breath,Painkillers,194,9,Healthy
+P00948,Laura Koch,37,Male,106.8,189,29.9,103/65,37/165,Non-Smoker,2,Yes,Heart Disease,Headache,Insulin,194,2,Treatment Required
+P00949,Richard George,69,Male,92.7,175,30.3,132/88,31/156,Smoker,7,Yes,Diabetes,Shortness of Breath,Beta Blockers,104,0,Healthy
+P00950,Allison Pineda,36,Female,100.8,158,40.4,114/79,56/146,Smoker,5,Yes,Heart Disease,Cough,None,182,10,Further Tests
+P00951,Stacey Briggs,34,Female,100.9,158,40.4,135/76,41/172,Smoker,1,No,None,Chest Pain,Insulin,133,3,Further Tests
+P00952,Heather Harris,48,Female,63.9,179,19.9,118/67,41/171,Smoker,5,Yes,Diabetes,Chest Pain,None,70,2,Healthy
+P00953,Stephanie Petty,31,Female,76.6,175,25.0,131/82,59/105,Non-Smoker,5,Yes,Heart Disease,Shortness of Breath,Antibiotics,127,10,Further Tests
+P00954,Joseph Cooper,61,Female,106.8,198,27.2,133/61,36/187,Smoker,0,No,Diabetes,Chest Pain,None,124,3,Treatment Required
+P00955,Julie Mathews,20,Male,58.7,154,24.8,102/90,34/187,Smoker,5,Yes,None,Headache,None,168,8,Treatment Required
+P00956,Samantha Morrow,80,Male,118.5,161,45.7,98/82,51/161,Non-Smoker,1,No,Heart Disease,Fatigue,None,186,10,Further Tests
+P00957,Tamara Thompson,24,Male,66.2,173,22.1,136/65,34/126,Non-Smoker,5,No,Heart Disease,Shortness of Breath,Beta Blockers,93,5,Healthy
+P00958,Sarah Leach,63,Male,80.1,189,22.4,128/77,36/184,Non-Smoker,4,Yes,None,Fatigue,Painkillers,108,8,Further Tests
+P00959,Nathaniel Mathews,45,Female,90.7,194,24.1,124/75,41/107,Non-Smoker,7,No,Hypertension,Fever,Insulin,78,2,Treatment Required
+P00960,Todd Kent,69,Male,77.3,165,28.4,99/67,57/134,Smoker,6,Yes,Heart Disease,Shortness of Breath,Beta Blockers,182,1,Further Tests
+P00961,Robert Richards,27,Female,95.9,165,35.2,97/73,34/164,Smoker,5,No,Heart Disease,Chest Pain,Antibiotics,188,9,Treatment Required
+P00962,Rachel Young,75,Male,94.7,167,34.0,131/74,41/169,Non-Smoker,1,Yes,Asthma,Fatigue,Antibiotics,101,5,Treatment Required
+P00963,Jose Hanson,79,Male,116.0,175,37.9,130/60,31/155,Smoker,2,Yes,Heart Disease,Cough,Painkillers,144,7,Treatment Required
+P00964,Angelica Deleon,22,Male,92.2,174,30.5,95/90,54/179,Non-Smoker,1,No,Asthma,Shortness of Breath,Antibiotics,98,3,Further Tests
+P00965,Kathryn James,70,Male,118.3,170,40.9,129/77,40/190,Non-Smoker,5,No,None,Shortness of Breath,Painkillers,141,1,Monitor
+P00966,Laura Lopez,30,Male,102.5,159,40.5,134/90,37/140,Smoker,5,Yes,Hypertension,Fatigue,Antibiotics,160,0,Healthy
+P00967,Alicia Flores,29,Male,119.8,160,46.8,123/87,33/174,Smoker,6,Yes,Diabetes,Chest Pain,Beta Blockers,139,1,Monitor
+P00968,Laura Payne,58,Female,50.9,198,13.0,100/76,37/119,Smoker,0,Yes,Diabetes,Fatigue,Antibiotics,70,3,Treatment Required
+P00969,Colleen Bright,51,Female,117.5,186,34.0,128/82,44/182,Non-Smoker,4,Yes,Hypertension,Cough,Painkillers,190,1,Healthy
+P00970,Lisa Martinez,61,Male,56.8,167,20.4,91/64,53/124,Non-Smoker,6,Yes,Heart Disease,Fatigue,Insulin,97,9,Monitor
+P00971,Christine Clark,59,Male,101.7,196,26.5,136/90,60/161,Smoker,6,Yes,Heart Disease,Chest Pain,Antibiotics,198,2,Treatment Required
+P00972,Robert Werner,29,Male,101.0,167,36.2,114/69,56/106,Smoker,6,Yes,Asthma,Headache,Insulin,132,6,Treatment Required
+P00973,Randy Johnson,22,Male,85.0,165,31.2,130/69,49/153,Smoker,2,No,Heart Disease,Headache,Beta Blockers,189,1,Further Tests
+P00974,Michael Meza,65,Female,115.0,182,34.7,97/82,41/121,Smoker,4,No,Diabetes,Chest Pain,None,102,1,Further Tests
+P00975,Denise Hart,32,Male,74.2,179,23.2,94/83,50/142,Smoker,4,No,None,Fatigue,None,140,10,Monitor
+P00976,Nichole Cook,64,Male,89.3,157,36.2,120/71,48/173,Smoker,5,Yes,Diabetes,Shortness of Breath,Antibiotics,159,10,Monitor
+P00977,Juan Webb,21,Female,88.4,169,31.0,106/67,39/157,Smoker,5,No,Hypertension,Fatigue,Insulin,73,1,Monitor
+P00978,Veronica Andrews,80,Female,77.1,166,28.0,123/65,42/126,Non-Smoker,1,Yes,None,Headache,Insulin,155,2,Treatment Required
+P00979,Yvonne Willis,72,Female,57.5,182,17.4,102/79,54/124,Smoker,2,No,Asthma,Headache,None,178,3,Treatment Required
+P00980,Rebecca Jones,88,Male,117.8,180,36.4,128/80,43/105,Smoker,6,No,None,Cough,Insulin,181,6,Monitor
+P00981,Jesus White,63,Male,89.1,182,26.9,101/63,48/152,Non-Smoker,1,No,None,Fatigue,Antibiotics,180,8,Monitor
+P00982,Adam Brown,18,Male,88.7,181,27.1,138/87,55/123,Non-Smoker,6,No,Heart Disease,Headache,None,91,1,Healthy
+P00983,Hannah Byrd,40,Female,73.5,188,20.8,106/73,45/136,Smoker,4,Yes,Hypertension,Fever,Antibiotics,148,9,Treatment Required
+P00984,Jennifer Brown,20,Female,54.3,161,20.9,93/73,56/139,Non-Smoker,0,Yes,Hypertension,Fever,Antibiotics,156,5,Monitor
+P00985,Kimberly Davis,85,Female,103.3,191,28.3,126/60,47/103,Smoker,2,No,Diabetes,Chest Pain,Painkillers,90,3,Healthy
+P00986,Rachel Perkins,74,Female,77.0,191,21.1,108/64,48/100,Smoker,2,Yes,Heart Disease,Cough,Beta Blockers,85,5,Treatment Required
+P00987,Heather White,78,Male,109.1,155,45.4,98/74,42/126,Smoker,5,No,Hypertension,Cough,Painkillers,166,1,Further Tests
+P00988,Jennifer Collins,60,Male,60.6,198,15.5,101/64,51/152,Smoker,6,Yes,Asthma,Fever,Antibiotics,125,5,Treatment Required
+P00989,Joshua Wood,40,Female,92.2,187,26.4,127/78,39/187,Smoker,6,Yes,Asthma,Chest Pain,None,148,4,Treatment Required
+P00990,Kristi Nichols,62,Female,77.5,177,24.7,138/70,36/149,Smoker,6,No,Asthma,Fatigue,None,144,4,Monitor
+P00991,David Ellis,57,Male,55.6,180,17.2,140/77,44/113,Smoker,4,Yes,Heart Disease,Shortness of Breath,Antibiotics,178,1,Further Tests
+P00992,Alan Perkins,33,Female,63.3,176,20.4,106/74,59/105,Smoker,3,Yes,Heart Disease,Fever,Beta Blockers,150,10,Treatment Required
+P00993,Patrick Cherry,65,Female,58.2,197,15.0,120/78,31/159,Non-Smoker,0,No,Asthma,Fever,Antibiotics,164,0,Further Tests
+P00994,Jason Jones,75,Male,72.3,189,20.2,107/84,57/117,Non-Smoker,6,No,Heart Disease,Fatigue,Beta Blockers,124,4,Treatment Required
+P00995,Tony Wilkerson,20,Male,63.0,155,26.2,93/85,35/182,Non-Smoker,7,No,Asthma,Cough,Painkillers,127,2,Treatment Required
+P00996,Bethany Butler,60,Female,64.0,153,27.3,103/61,45/180,Non-Smoker,7,Yes,Diabetes,Cough,Beta Blockers,132,3,Healthy
+P00997,Danielle Flores,58,Male,64.7,158,25.9,131/73,50/112,Non-Smoker,5,Yes,Hypertension,Cough,Antibiotics,87,6,Monitor
+P00998,Paul Hood,36,Female,107.5,188,30.4,94/69,41/181,Non-Smoker,2,No,Asthma,Headache,Beta Blockers,82,1,Treatment Required
+P00999,Melanie Tate,21,Male,65.3,176,21.1,117/73,49/121,Non-Smoker,7,No,Hypertension,Chest Pain,Insulin,132,1,Monitor
+P01000,Victor Anthony,70,Male,60.1,160,23.5,113/65,49/178,Non-Smoker,2,Yes,Hypertension,Chest Pain,Beta Blockers,195,3,Healthy
