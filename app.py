@@ -253,7 +253,7 @@ iface.launch()
 
 
 '''
-#FROM HERE REST OF THE CODE IN MY SQL INTERGRATED CODE- NOT FINISHED COMPLETELY#
+#FROM HERE REST OF THE CODE IN MY SQL INTERGRATED CODE- NOT FINISHED COMPLETELY -IN PROGRESS#
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
