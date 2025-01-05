@@ -3,7 +3,17 @@ This project utilizes a Logistic Regression model to predict real health risks (
 It provides accurate, real-time predictions along with detailed reasoning to help users understand their health status.
 
 🚀 Features
-Inputs: Age, Gender, BMI, Blood Group, Glucose, Cholesterol, Blood Pressure, Family History, and Existing Conditions.
+Inputs:
+1.Age
+2.Gender
+3.BMI
+4.Blood Group
+5.Glucose
+6.Cholesterol
+6.Blood Pressure
+8.Family History
+9.Existing Conditions.
+
 Accurate Predictions: Achieves 85% accuracy, with 80% precision and an F1-score of 79%.
 Gradio Interface: A seamless and user-friendly UI for easy interaction.
 Actionable Insights: Offers recommendations to improve overall health and well-being.
