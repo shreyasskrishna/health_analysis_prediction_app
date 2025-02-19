@@ -36,6 +36,13 @@ This project utilizes a **Logistic Regression** model to predict real health ris
 
 ---
 
+####  MODEL INTERFACE
+<img src="images/WhatsApp Image 2025-02-19 at 10.01.49 AM.jpeg" width="900">
+
+
+#### PREDICTED OUTPUT
+<img src="images/Screenshot 2025-02-19 095433.png" width="900">
+
 ## 📌 Steps to run the app
 
 1️⃣ **Install dependencies:**  
